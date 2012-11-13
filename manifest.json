@@ -1,18 +1,19 @@
 {
-  "manifest_version": 2,
+    "manifest_version": 2,
 
-  "content_scripts": [
-    {
-        "js": [ "js.js" , "jquery.min.js" ],
-        "matches": [
-            "http://www.google.ru/reader/view/*",
-            "http://www.google.com/reader/view/*",
-            "https://www.google.com/reader/view/*",
-            "http://*.livejournal.com/*"
-        ]
-    }
-],
-    "description": "KavkazCenter links substitution, ljtimes killer (Sep 5, 2012)",
-    "name": "Google Reader improvements+ljTimes killer",
-    "version": "0.8"
+    "content_scripts": [
+        {
+            "js": [ "jquery.min.js", "js.js" ],
+            "matches": [
+                "http://www.google.ru/reader/view/*",
+                "http://www.google.com/reader/view/*",
+                "https://www.google.com/reader/view/*",
+                "http://*.livejournal.com/*",
+                "http://www.onion.to/*"
+            ]
+        }
+    ],
+    "description": "KavkazCenter links substitution, ljtimes killer (Nov 13, 2012)",
+    "name": "Google Reader improvements+ljTimes killer+2r2tz6wzqh7gaji7.onion.to",
+    "version": "0.9"
 }
