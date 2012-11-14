@@ -1,5 +1,5 @@
 $(function() {
-    if (String(location).indexOf('onion.to/enter.php?') != -1) {
+    if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).indexOf('onion.to/exit.php?') != -1) {
         $('input[name="proceed"]').click();
     }
 });
