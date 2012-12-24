@@ -1,0 +1,7 @@
+.red {
+    color: red;
+}
+
+.entry .entry-body, .entry h2.entry-title {
+    max-width: 100%;
+}
