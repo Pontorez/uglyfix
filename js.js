@@ -15,7 +15,7 @@ function x() {
         var link = $(this).attr('href');
         if (link.indexOf("http://www.kavkazcenter.com/") === 0) {
             if ($(this).parent().has('a.my').length === 0) {
-                var onionLink = $(this).attr('href').replace('http://www.kavkazcenter.com/', 'http://2r2tz6wzqh7gaji7.onion.to/');
+                var onionLink = $(this).attr('href').replace('http://www.kavkazcenter.com/', 'https://2r2tz6wzqh7gaji7.onion.to/');
                 var appEngineLink = $(this).attr('href').replace('http://www.kavkazcenter.com/', 'http://labnol-proxy-server.appspot.com/kavkazcenter.com/');
                 var iLikeProxyLink = $(this).attr('href').replace('http://www.kavkazcenter.com/', 'http://ilikeproxy.appspot.com/kavkazcenter.com/');
                 $(this).parent().append(' <a target="_blank" href="' + onionLink + '" class="my">[ONION</a> <span class="red">|</span> <a target="_blank" href="' + appEngineLink + '">AE</a> <span class="red">|</span> <a target="_blank" href="' + iLikeProxyLink + '">ILP]</a>');
@@ -31,4 +31,3 @@ function x() {
 }
 
 setInterval("x()", 1500);
-
