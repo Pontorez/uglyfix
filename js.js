@@ -1,8 +1,25 @@
-$(function() {
-    if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).indexOf('onion.to/exit.php?') != -1) {
-        $('input[name="proceed"]').click();
+$.fn.onAvailable = function (fn) {
+    var sel = this.selector;
+    var timer;
+//    var self = this;
+    if (this.length > 0) {
+        fn.call(this);
     }
-});
+    else {
+        timer = setInterval(function () {
+            if ($(sel).length > 0) {
+                fn.call($(sel));
+                clearInterval(timer);
+            }
+        }, 50);
+    }
+};
+
+if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).indexOf('onion.to/exit.php?') != -1) {
+    $('input[name="proceed"]').onAvailable(function () {
+        $('input[name="proceed"]').click();
+    });
+}
 
 function x() {
 
@@ -29,5 +46,14 @@ function x() {
         }
     });
 }
+jQuery('body').keyup(function () {
+    x();
+}).mouseup(function () {
+        setTimeout('x()', 66);
+        setTimeout('x()', 99);
+        setTimeout('x()', 333);
+        setTimeout('x()', 666);
+        setTimeout('x()', 999);
+    }
+);
 
-setInterval("x()", 1500);
