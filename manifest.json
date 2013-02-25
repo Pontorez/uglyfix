@@ -8,8 +8,7 @@
             "matches": [
                 "https://www.google.com/reader/view/*",
                 "https://www.onion.to/*",
-                "http://*.livejournal.com/*",
-                "http://www.kcblog.info/*"
+                "http://*.livejournal.com/*"
             ]
         }
     ],
