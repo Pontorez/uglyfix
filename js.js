@@ -49,10 +49,10 @@ function x() {
         } else if (link.indexOf("http://habrahabr.ru/") === 0) {
             var entryAuthorName = $('.entry-author-name');
             entryAuthorName.html(entryAuthorName.html().replace('alizar', '<span style="background-color: pink">alizar</span>'));
-        } else if (link.indexOf('http://lj.rossia.org/users/tiphareth/') === 0) {
+        } else if (link.indexOf('http://lj.rossia.org/users/') === 0) {
             if ($(this).parent().has('a.my').length === 0) {
-                appEngineLink = $(this).attr('href').replace('http://lj.rossia.org/users/tiphareth/', 'https://labnol-proxy-server.appspot.com/lj.rossia.org/users/tiphareth/');
-                iLikeProxyLink = $(this).attr('href').replace('http://lj.rossia.org/users/tiphareth/', 'https://ilikeproxy.appspot.com/lj.rossia.org/users/tiphareth/');
+                appEngineLink = $(this).attr('href').replace('http://lj.rossia.org/users/', 'https://labnol-proxy-server.appspot.com/lj.rossia.org/users/');
+                iLikeProxyLink = $(this).attr('href').replace('http://lj.rossia.org/users/', 'https://ilikeproxy.appspot.com/lj.rossia.org/users/');
                 $(this).parent().append(' [<a class="my" target="_blank" href="' + appEngineLink + '">AE</a>' + separator + '<a target="_blank" href="' + iLikeProxyLink + '">ILP</a>]');
             }
         }
