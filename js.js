@@ -5,8 +5,7 @@ $.fn.onAvailable = function (fn) {
     var timer;
     if (this.length > 0) {
         fn.call(this);
-    }
-    else {
+    } else {
         timer = setInterval(function () {
             if ($(sel).length > 0) {
                 fn.call($(sel));
@@ -20,13 +19,13 @@ if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).in
     $('input[name="proceed"]').onAvailable(function () {
         $('input[name="proceed"]').click();
     });
+} else if (location.host == 'www.kcblog.info') {
+    $('div.MsoNoSpacing').css('color', '#000');
 }
 
-function x() {
-    if (document.getElementById('ljtime')) {
-        document.getElementById('ljtime').style.display = 'none';
-    }
+// Google Reader:
 
+function fixGoogleReader() {
     var appEngineLink, iLikeProxyLink;
     var separator = ' <span class="red">|</span> ';
 
@@ -58,13 +57,16 @@ function x() {
         }
     });
 }
-$('body').keyup(function () {
-    x();
-}).mouseup(function () {
-        setTimeout('x()', 66);
-        setTimeout('x()', 99);
-        setTimeout('x()', 333);
-        setTimeout('x()', 666);
-        setTimeout('x()', 999);
-    }
-);
+
+if (location.host == 'www.google.com') {
+    $('body').keyup(function () {
+        fixGoogleReader();
+    }).mouseup(function () {
+            setTimeout('fixGoogleReader()', 66);
+            setTimeout('fixGoogleReader()', 99);
+            setTimeout('fixGoogleReader()', 333);
+            setTimeout('fixGoogleReader()', 666);
+            setTimeout('fixGoogleReader()', 999);
+        }
+    );
+}
