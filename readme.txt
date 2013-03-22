@@ -14,3 +14,6 @@ google.com/reader
 1. Ширина item title увеличена до 100%
 2. Подсветка пользователя alizar
 3. Ссылки на прокси для kavkazcenter.com и lj.rossia.org
+
+gmail.com
+Скрытие рекламы над списком сообщений

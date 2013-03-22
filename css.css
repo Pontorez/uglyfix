@@ -9,3 +9,8 @@
 #ljtime {
     display: none;
 }
+
+/* Gmail: hide top ad */
+.mq {
+    visibility: hidden;
+}

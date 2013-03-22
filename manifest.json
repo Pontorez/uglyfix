@@ -7,6 +7,7 @@
             "css": ["css.css"],
             "matches": [
                 "https://www.google.com/reader/view/*",
+                "https://mail.google.com/*",
                 "https://www.onion.to/*",
                 "http://*.livejournal.com/*",
                 "http://www.kcblog.info/*"
