@@ -23,8 +23,13 @@ if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).in
     $('div.MsoNoSpacing').css('color', '#000');
 }
 
-// Google Reader:
+function fixNetvibes() {
+    // todo add proxy link to kavkazcenter, etc
+}
 
+
+/*
+// Google Reader:
 function fixGoogleReader() {
     var appEngineLink, iLikeProxyLink;
     var separator = ' <span class="red">|</span> ';
@@ -57,16 +62,16 @@ function fixGoogleReader() {
         }
     });
 }
-
-if (location.host == 'www.google.com') {
+*/
+if (location.host == 'www.netvibes.com') {
     $('body').keyup(function () {
-        fixGoogleReader();
+        fixNetvibes();
     }).mouseup(function () {
-            setTimeout('fixGoogleReader()', 66);
-            setTimeout('fixGoogleReader()', 99);
-            setTimeout('fixGoogleReader()', 333);
-            setTimeout('fixGoogleReader()', 666);
-            setTimeout('fixGoogleReader()', 999);
+            setTimeout(fixNetvibes, 66);
+            setTimeout(fixNetvibes, 99);
+            setTimeout(fixNetvibes, 333);
+            setTimeout(fixNetvibes, 666);
+            setTimeout(fixNetvibes, 999);
         }
     );
 }

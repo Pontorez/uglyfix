@@ -10,11 +10,12 @@
                 "https://mail.google.com/*",
                 "https://www.onion.to/*",
                 "http://*.livejournal.com/*",
-                "http://www.kcblog.info/*"
+                "http://www.kcblog.info/*",
+                "http://www.netvibes.com/privatepage/*"
             ]
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Mar 21, 2013)",
+    "description": "KavkazCenter links substitution, ljtimes killer (Mar 27, 2013)",
     "name": "Google Reader improvements+ljTimes killer+2r2tz6wzqh7gaji7.onion.to",
-    "version": "1.1"
+    "version": "1.2"
 }

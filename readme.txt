@@ -17,3 +17,6 @@ google.com/reader
 
 gmail.com
 Скрытие рекламы над списком сообщений
+
+netvibes.com/privatepage/1
+Цвет текста: серый -> чёрный

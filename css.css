@@ -14,3 +14,8 @@
 .mq {
     visibility: hidden;
 }
+
+/* NetVibes: set black color for main text */
+div.entry-content.autoclear {
+    color: #000;
+}
