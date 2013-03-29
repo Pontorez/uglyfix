@@ -6,7 +6,6 @@
             "js": [ "jquery.js", "js.js" ],
             "css": ["css.css"],
             "matches": [
-                "https://www.google.com/reader/view/*",
                 "https://mail.google.com/*",
                 "https://www.onion.to/*",
                 "http://*.livejournal.com/*",
@@ -15,7 +14,7 @@
             ]
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Mar 27, 2013)",
-    "name": "Google Reader improvements+ljTimes killer+2r2tz6wzqh7gaji7.onion.to",
-    "version": "1.2"
+    "description": "KavkazCenter links substitution, ljtimes killer (Mar 29, 2013)",
+    "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
+    "version": "1.3"
 }

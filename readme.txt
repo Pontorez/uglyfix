@@ -20,3 +20,6 @@ gmail.com
 
 netvibes.com/privatepage/1
 Цвет текста: серый -> чёрный
+Ссылки на palm-версию статьи для newsru.com
+Ссылки на прокси-сервера для kavkazcenter.com
+Habrahabr: выделять автора alizar красным цветом
