@@ -1,11 +1,11 @@
 http://www.netvibes.com/privatepage/1
 1. Цвет текста: серый -> чёрный
-2. newsru.com: добавлена ссылка на palm-версию статьи
-3. kavkazcenter.com: Добавлены ссылки на прокси-сервера для обхода цензуры
-4. habrahabr.ru: выделять автора alizar красным цветом
+2. http://newsru.com: добавлена ссылка на palm-версию статьи
+3. http://kavkazcenter.com: Добавлены ссылки на прокси-сервера для обхода цензуры
+4. http://habrahabr.ru: выделять автора alizar красным цветом
 
 http://www.livejournal.com/
-Скрывать полоску LJ Times внизу страницы
+Скрытие полоски LJ Times внизу страницы
 
 http://www.kcblog.info/
 Цвет основного текста сделан чёрным вместо серого
