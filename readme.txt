@@ -1,25 +1,20 @@
-newsru.com
-Дополнительная ссылка на palm-версию страницы
+http://www.netvibes.com/privatepage/1
+1. Цвет текста: серый -> чёрный
+2. newsru.com: добавлена ссылка на palm-версию статьи
+3. kavkazcenter.com: Добавлены ссылки на прокси-сервера для обхода цензуры
+4. habrahabr.ru: выделять автора alizar красным цветом
 
-livejournal.com
-Сокрытие полоски LJ Times внизу страницы.
+http://www.livejournal.com/
+Скрывать полоску LJ Times внизу страницы
 
-www.kcblog.info
-Цвет основного текста сделан чёрным вместо серого.
+http://www.kcblog.info/
+Цвет основного текста сделан чёрным вместо серого
 
-onion.to
-Автоматическое нажатие на кнопку "Continue" для перехода на целевой сайт.
+https://onion.to/
+Автоматическое нажатие на кнопку "Continue" для перехода на целевой сайт
 
-google.com/reader
-1. Ширина item title увеличена до 100%
-2. Подсветка пользователя alizar
-3. Ссылки на прокси для kavkazcenter.com и lj.rossia.org
-
-gmail.com
+https://mail.google.com/
 Скрытие рекламы над списком сообщений
 
-netvibes.com/privatepage/1
-Цвет текста: серый -> чёрный
-Ссылки на palm-версию статьи для newsru.com
-Ссылки на прокси-сервера для kavkazcenter.com
-Habrahabr: выделять автора alizar красным цветом
+https://www.google.ru/search
+Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
