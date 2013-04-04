@@ -19,3 +19,9 @@
 div.entry-content.autoclear {
     color: #000;
 }
+
+/* NetVibes: increase main block width */
+#smartreader-main {
+    margin-right: 0;
+    padding-right: 0 !important;
+}

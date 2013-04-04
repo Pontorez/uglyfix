@@ -1,8 +1,9 @@
 http://www.netvibes.com/privatepage/1
 1. Цвет текста: серый -> чёрный
 2. http://newsru.com: добавлена ссылка на palm-версию статьи
-3. http://kavkazcenter.com: Добавлены ссылки на прокси-сервера для обхода цензуры
+3. http://kavkazcenter.com: добавлены ссылки на прокси-сервера для обхода цензуры
 4. http://habrahabr.ru: выделять автора alizar красным цветом
+5. Увеличена ширина области чтения (#smartreader-main)
 
 http://www.livejournal.com/
 Скрытие полоски LJ Times внизу страницы
