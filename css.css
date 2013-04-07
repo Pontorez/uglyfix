@@ -25,3 +25,8 @@ div.entry-content.autoclear {
     margin-right: 0;
     padding-right: 0 !important;
 }
+
+/* NetVibes: remove unnecessary border for comfortable scrolling */
+#smartreader-feeds-container  #smartreader-feeds-main {
+    border: 0;
+}
