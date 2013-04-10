@@ -16,7 +16,8 @@
                 "https://www.onion.to/*",
                 "http://*.livejournal.com/*",
                 "http://www.kcblog.info/*",
-                "http://www.netvibes.com/privatepage/*"
+                "http://www.netvibes.com/privatepage/*",
+                "http://www.newsru.com/*"
             ]
         }
     ],

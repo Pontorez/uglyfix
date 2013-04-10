@@ -22,6 +22,8 @@ if (String(location).indexOf('onion.to/enter.php?') != -1 || String(location).in
     });
 } else if (location.host == 'www.kcblog.info') {
     $('div.MsoNoSpacing').css('color', '#000');
+} else if (location.host == 'www.newsru.com') {
+    document.body.style.background = '#555';
 }
 
 function fixNetvibes() {
