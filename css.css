@@ -30,3 +30,8 @@ div.entry-content.autoclear {
 #smartreader-feeds-container  #smartreader-feeds-main {
     border: 0;
 }
+
+/* Netvibes: don't show footer */
+#sub-container #footer {
+    display: none;
+}
