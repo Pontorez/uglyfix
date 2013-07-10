@@ -1,7 +1,14 @@
 "use strict";
 
 if (jQuery('h1.bld').length) {
-    document.title = '█ ▄ █ ▄ ▄ █ ▄ █ ▄ █ ▄ █ ▄ █';
+    setInterval(function () {
+        var date = new Date();
+        if (date.getSeconds() % 2) {
+            document.title = '█ ▄ █ ▄ ▄ █ ▄ █ ▄ █ ▄ █ ▄ █';
+        } else {
+            document.title = '→ New mail ←';
+        }
+    }, 500);
 }
 
 setInterval(function () {

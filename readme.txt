@@ -14,9 +14,6 @@ http://www.kcblog.info/
 https://onion.to/
 Автоматическое нажатие на кнопку "Continue" для перехода на целевой сайт
 
-https://mail.google.com/
-Скрытие рекламы над списком сообщений
-
 https://www.google.ru/search
 Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
 
@@ -25,3 +22,5 @@ http://newsru.com: залёный полосатый background заменён �
 https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
 
 http://antizapret.info/site.php?id=921 - менять label'ы на <a/>
+
+http://blogarbik.ru/?p=4495 - increase main font size

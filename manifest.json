@@ -30,6 +30,12 @@
             ]
         },
         {
+            "matches": ["http://blogarbik.ru/*"],
+            "css": [
+                "css/blogarbik.ru.css"
+            ]
+        },
+        {
             "matches": ["https://mail.mtt.ru/owa/*"],
             "js": [
                 "js/jquery-2.0.3.min.js",
