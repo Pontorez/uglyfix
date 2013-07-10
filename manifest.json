@@ -13,16 +13,20 @@
             "js": ["js/google_search.js"]
         },
         {
-            "matches": [
-                "https://mail.google.com/*",
-                "http://*.livejournal.com/*",
-                "http://www.kcblog.info/*",
-                "http://www.newsru.com/*"
-            ],
-            "css": ["css.css"],
+            "matches": ["http://www.kcblog.info/*"],
+            "js": ["js/kcblog.info.js"]
+        },
+        {
+            "matches": ["http://www.newsru.com/*"],
             "js": [
-                "js/jquery.js",
-                "js.js"
+                "js/jquery-2.0.3.min.js",
+                "js/newsru.com.js"
+            ]
+        },
+        {
+            "matches": ["http://*.livejournal.com/*"],
+            "css": [
+                "css/livejournal.com.css"
             ]
         },
         {
