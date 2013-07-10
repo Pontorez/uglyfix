@@ -21,3 +21,5 @@ https://www.google.ru/search
 Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
 
 http://newsru.com: залёный полосатый background заменён на серый
+
+https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
