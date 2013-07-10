@@ -7,13 +7,6 @@
             "js": [ "js/google_search.js" ]
         },
         {
-            "js": [
-                "js/jquery.js",
-                "js.js"
-            ],
-            "css": [
-                "css.css"
-            ],
             "matches": [
                 "https://mail.google.com/*",
                 "https://www.onion.to/*",
@@ -21,6 +14,13 @@
                 "http://www.kcblog.info/*",
                 "http://www.netvibes.com/privatepage/*",
                 "http://www.newsru.com/*"
+            ],
+            "js": [
+                "js/jquery.js",
+                "js.js"
+            ],
+            "css": [
+                "css.css"
             ]
         },
         {
