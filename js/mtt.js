@@ -1,3 +1,5 @@
+"use strict";
+
 if (jQuery('h1.bld').length) {
     document.title = '█ ▄ █ ▄ ▄ █ ▄ █ ▄ █ ▄ █ ▄ █';
 }

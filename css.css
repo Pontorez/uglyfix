@@ -14,24 +14,3 @@
 .mq {
     visibility: hidden;
 }
-
-/* NetVibes: set black color for main text */
-div.entry-content.autoclear {
-    color: #000;
-}
-
-/* NetVibes: increase main block width */
-#smartreader-main {
-    margin-right: 0;
-    padding-right: 0 !important;
-}
-
-/* NetVibes: remove unnecessary border for comfortable scrolling */
-#smartreader-feeds-container  #smartreader-feeds-main {
-    border: 0;
-}
-
-/* Netvibes: don't show footer */
-#sub-container #footer {
-    display: none;
-}

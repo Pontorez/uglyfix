@@ -1,40 +1,47 @@
 {
     "content_scripts": [
         {
-            "matches": [
-                "https://www.google.ru/*"
-            ],
-            "js": [ "js/google_search.js" ]
+            "matches": ["http://www.netvibes.com/privatepage/*"],
+            "css": ["css/netvibes.com.css"],
+            "js": [
+                "js/jquery-2.0.3.min.js",
+                "js/netvibes.com.js"
+            ]
+        },
+        {
+            "matches": ["https://www.google.ru/*"],
+            "js": ["js/google_search.js"]
         },
         {
             "matches": [
                 "https://mail.google.com/*",
-                "https://www.onion.to/*",
                 "http://*.livejournal.com/*",
                 "http://www.kcblog.info/*",
-                "http://www.netvibes.com/privatepage/*",
                 "http://www.newsru.com/*"
             ],
+            "css": ["css.css"],
             "js": [
                 "js/jquery.js",
                 "js.js"
-            ],
-            "css": [
-                "css.css"
             ]
         },
         {
-            "matches": [
-                "https://mail.mtt.ru/owa/*"
-            ],
+            "matches": ["https://mail.mtt.ru/owa/*"],
             "js": [
-                "js/jquery.js",
+                "js/jquery-2.0.3.min.js",
                 "js/mtt.js"
+            ]
+        },
+        {
+            "matches": ["http://antizapret.info/site.php?id=*"],
+            "js": [
+                "js/jquery-2.0.3.min.js",
+                "js/antizapret.info.js"
             ]
         }
     ],
     "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Jul 10, 2013)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.6",
+    "version": "1.7",
     "manifest_version": 2
 }

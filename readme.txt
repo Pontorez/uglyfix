@@ -23,3 +23,5 @@ https://www.google.ru/search
 http://newsru.com: залёный полосатый background заменён на серый
 
 https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
+
+http://antizapret.info/site.php?id=921 - менять label'ы на <a/>
