@@ -1,6 +1,6 @@
 "use strict";
 
-if (jQuery('h1.bld').length) {
+if (jQuery('h1.bld').length && location.search.indexOf('PeoplePicker') == -1) {
     setInterval(function () {
         var date = new Date();
         if (date.getSeconds() % 2) {

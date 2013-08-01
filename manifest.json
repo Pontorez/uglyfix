@@ -14,7 +14,10 @@
         },
         {
             "matches": ["http://www.kcblog.info/*"],
-            "js": ["js/kcblog.info.js"]
+            "js": [
+                "js/jquery-2.0.3.min.js",
+                "js/kcblog.info.js"
+            ]
         },
         {
             "matches": ["http://www.newsru.com/*"],
@@ -48,10 +51,16 @@
                 "js/jquery-2.0.3.min.js",
                 "js/antizapret.info.js"
             ]
+        },
+        {
+            "matches": ["https://inoreader.com/"],
+            "css": [
+                "css/inoreader.css"
+            ]
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Jul 10, 2013)",
+    "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Aug 1, 2013)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.7",
+    "version": "1.72",
     "manifest_version": 2
 }

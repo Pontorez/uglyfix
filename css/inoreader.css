@@ -1,0 +1,8 @@
+div.article_content {
+    max-width: 100%;
+}
+
+#reader_pane {
+    position: absolute;
+    right: 0;
+}
