@@ -13,6 +13,7 @@ https://www.google.ru/search
 http://newsru.com/
 1. Залёный полосатый background заменён на серый
 2. Скрывать блок СМИ2 (слева на странице с отдельной новостью)
+3. set main text align to left no justify
 
 https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
 
@@ -23,6 +24,8 @@ http://blogarbik.ru/?p=4495 - increase main font size
 https://inoreader.com/
 1. max-width контента - 100% вместо 650px
 2. Возможность кликнуть на скроллбар, когда курсор прижат к правой части экрана
+
+http://ru.wikipedia.org/* - редиректить на https
 
 ===
 
