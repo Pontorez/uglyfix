@@ -60,12 +60,6 @@
             "css": [
                 "css/inoreader.css"
             ]
-        },
-        {
-            "matches": ["http://ru.wikipedia.org/*"],
-            "js": [
-                "js/redirect2https.js"
-            ]
         }
     ],
     "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Aug 1, 2013)",
