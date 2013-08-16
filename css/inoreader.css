@@ -6,3 +6,8 @@ div.article_content {
     position: absolute;
     right: 0;
 }
+
+/* Don't show InoReader logo */
+div#subscriptions_nav>div>a {
+    display: none;
+}
