@@ -8,7 +8,8 @@ https://onion.to/
 Автоматическое нажатие на кнопку "Continue" для перехода на целевой сайт
 
 https://www.google.ru/search
-Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
+1. Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
+2. Скрывать рекламу сверху и снизу результатов поиска
 
 http://newsru.com/
 1. Залёный полосатый background заменён на серый
