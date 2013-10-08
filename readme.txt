@@ -18,7 +18,7 @@ http://newsru.com/
 
 https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
 
-http://antizapret.info/site.php?id=921 - менять label'ы на <a/>
+http://antizapret.info/ - ставить реальные ссылки на сайты
 
 http://blogarbik.ru/?p=4495 - increase main font size
 

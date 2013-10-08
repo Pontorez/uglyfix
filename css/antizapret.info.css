@@ -1,0 +1,9 @@
+.openLink {
+    color: red;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.openLink:visited {
+    color: #aaa;
+}

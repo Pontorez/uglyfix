@@ -50,7 +50,8 @@
             ]
         },
         {
-            "matches": ["http://antizapret.info/site.php?id=*"],
+            "matches": ["http://antizapret.info/*"],
+            "css": ["css/antizapret.info.css"],
             "js": [
                 "js/jquery-2.0.3.min.js",
                 "js/antizapret.info.js"
@@ -63,8 +64,8 @@
             ]
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Sep 1, 2013)",
+    "description": "KavkazCenter links substitution, ljtimes killer, MTT mail checker (Oct 8, 2013)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.75",
+    "version": "1.76",
     "manifest_version": 2
 }
