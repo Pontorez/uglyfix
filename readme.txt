@@ -16,8 +16,6 @@ http://newsru.com/
 2. Скрывать блок СМИ2 (слева на странице с отдельной новостью)
 3. set main text align to left no justify
 
-https://mail.mtt.ru/owa/ - проверять новые сообщения каждую минуту
-
 http://antizapret.info/ - ставить реальные ссылки на сайты
 
 http://blogarbik.ru/?p=4495 - increase main font size
@@ -31,9 +29,16 @@ https://ru.wikipedia.org/
 1. Ссылаться на английскую (а не русскую) версию Google Maps
 2. Открывать ссылки на Google Maps в _blank
 
+http://dooma.ru/images/4767
+Листание изображений с помощью C+Left/C+Right
+
 ===
 
 TODO:
+https://inoreader.com/#all_articles:
+
+http://lj.rossia.org/* -> https://...
+
 http://www.newsru.com/pict/big/1578312.html
 esc, left/right arrow keys handler
 
