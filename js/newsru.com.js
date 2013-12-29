@@ -8,3 +8,17 @@ $('div[id^="smi2adblock_"]').parent().parent().parent().hide();
 
 // Get rid of annoying background:
 document.body.style.background = '#555';
+
+window.onkeydown = function (e) {
+
+    e = e || window.event;
+    var keyCode = e.keyCode || e.which;
+
+    if (e.ctrlKey) {
+        if (keyCode == 37) {
+            $('img[alt="предыдущая фотография"]').click();
+        } else if (keyCode == 39) {
+            $('img[alt="следующая фотография"]').click();
+        }
+    }
+}

@@ -9,9 +9,13 @@
             ]
         },
         {
-            "matches": ["https://www.google.ru/*"],
+            "matches": ["https://www.google.ru/*", "https://www.google.de/*"],
             "css": ["css/google.css"],
             "js": ["js/google_search.js"]
+        },
+        {
+            "matches": ["https://mail.google.com/*"],
+            "js": ["js/mail.google.com.js"]
         },
         {
             "matches": ["http://www.kcblog.info/*"],
@@ -68,10 +72,17 @@
             "js": [
                 "js/dooma.ru.js"
             ]
+        },
+        {
+            "matches": ["http://inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*"],
+            "js": [
+                "js/https.js"
+            ],
+            "run_at": "document_start"
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Dec 22, 2013)",
+    "description": "KavkazCenter links substitution, ljtimes killer (Dec 29, 2013)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.78",
+    "version": "1.81",
     "manifest_version": 2
 }
