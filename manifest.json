@@ -81,8 +81,8 @@
             "run_at": "document_start"
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Dec 29, 2013)",
+    "description": "KavkazCenter links substitution, ljtimes killer (Jan 25, 2014)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.81",
+    "version": "1.82",
     "manifest_version": 2
 }
