@@ -10,7 +10,9 @@ $('div[id^="smi2adblock_"]').parent().parent().parent().hide();
 document.body.style.background = '#555';
 
 // Баннеры справа:
-document.getElementById('stakan').style.display='none';
+try {
+    document.getElementById('stakan').style.display = 'none';
+} catch (e) {}
 
 window.onkeydown = function (e) {
 

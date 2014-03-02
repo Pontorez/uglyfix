@@ -4,7 +4,7 @@
             "matches": ["http://www.netvibes.com/privatepage/*"],
             "css": ["css/netvibes.com.css"],
             "js": [
-                "js/jquery-2.0.3.min.js",
+                "js/jquery-2.1.0.min.js",
                 "js/netvibes.com.js"
             ]
         },
@@ -20,14 +20,14 @@
         {
             "matches": ["http://www.kcblog.info/*"],
             "js": [
-                "js/jquery-2.0.3.min.js",
+                "js/jquery-2.1.0.min.js",
                 "js/kcblog.info.js"
             ]
         },
         {
             "matches": ["http://*.newsru.com/*"],
             "js": [
-                "js/jquery-2.0.3.min.js",
+                "js/jquery-2.1.0.min.js",
                 "js/newsru.com.js"
             ],
             "css": [
@@ -49,7 +49,7 @@
         {
             "matches": ["https://*.wikipedia.org/wiki/*"],
             "js": [
-                "js/jquery-2.0.3.min.js",
+                "js/jquery-2.1.0.min.js",
                 "js/wikipedia.js"
             ]
         },
@@ -57,7 +57,7 @@
             "matches": ["http://antizapret.info/*"],
             "css": ["css/antizapret.info.css"],
             "js": [
-                "js/jquery-2.0.3.min.js",
+                "js/jquery-2.1.0.min.js",
                 "js/antizapret.info.js"
             ]
         },
@@ -78,6 +78,10 @@
             "css": ["css/hh.ru.css"]
         },
         {
+            "matches": ["http://career.ru/*"],
+            "css": ["css/career.ru.css"]
+        },
+        {
             "matches": ["http://inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*"],
             "js": ["js/https.js"],
             "run_at": "document_start"
@@ -85,6 +89,6 @@
     ],
     "description": "KavkazCenter links substitution, ljtimes killer (Mar 2, 2014)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.84",
+    "version": "1.85",
     "manifest_version": 2
 }

@@ -23,6 +23,9 @@ http://newsru.com/
 http://hh.ru/
 Скрывать баннеры сверху и справа
 
+http://career.ru/
+Скрывать баннеры справа
+
 http://antizapret.info/ - ставить реальные ссылки на сайты
 
 http://blogarbik.ru/?p=4495 - increase main font size
@@ -44,11 +47,6 @@ http://dooma.ru/images/4767
 
 TODO:
 https://inoreader.com/#all_articles:
-
-http://lj.rossia.org/* -> https://...
-
-http://www.newsru.com/pict/big/1578312.html
-esc, left/right arrow keys handler
 
 DEPRECATED:
 http://www.netvibes.com/privatepage/1
