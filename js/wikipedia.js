@@ -6,4 +6,4 @@ $("a:contains('(G)')").each(function () {
     this.href = this.href.replace('hl=ru', 'hl=en');
 });
 
-document.title = document.title.replace(' — Википедия', '');
+document.title = document.title.replace(' — Википедия', '').replace(' - Wikipedia, the free encyclopedia', '');

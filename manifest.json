@@ -25,7 +25,7 @@
             ]
         },
         {
-            "matches": ["http://www.newsru.com/*"],
+            "matches": ["http://*.newsru.com/*"],
             "js": [
                 "js/jquery-2.0.3.min.js",
                 "js/newsru.com.js"
@@ -47,7 +47,7 @@
             ]
         },
         {
-            "matches": ["https://ru.wikipedia.org/wiki/*"],
+            "matches": ["https://*.wikipedia.org/wiki/*"],
             "js": [
                 "js/jquery-2.0.3.min.js",
                 "js/wikipedia.js"
@@ -74,15 +74,17 @@
             ]
         },
         {
+            "matches": ["http://hh.ru/*"],
+            "css": ["css/hh.ru.css"]
+        },
+        {
             "matches": ["http://inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*"],
-            "js": [
-                "js/https.js"
-            ],
+            "js": ["js/https.js"],
             "run_at": "document_start"
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Jan 25, 2014)",
+    "description": "KavkazCenter links substitution, ljtimes killer (Mar 2, 2014)",
     "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.82",
+    "version": "1.84",
     "manifest_version": 2
 }

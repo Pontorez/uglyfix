@@ -9,6 +9,9 @@ $('div[id^="smi2adblock_"]').parent().parent().parent().hide();
 // Get rid of annoying background:
 document.body.style.background = '#555';
 
+// Баннеры справа:
+document.getElementById('stakan').style.display='none';
+
 window.onkeydown = function (e) {
 
     e = e || window.event;
@@ -21,4 +24,4 @@ window.onkeydown = function (e) {
             $('img[alt="следующая фотография"]').click();
         }
     }
-}
+};
