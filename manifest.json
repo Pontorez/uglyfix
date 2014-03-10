@@ -20,7 +20,6 @@
         {
             "matches": ["http://www.kcblog.info/*"],
             "js": [
-                "js/jquery-2.1.0.min.js",
                 "js/kcblog.info.js"
             ]
         },
@@ -87,8 +86,8 @@
             "run_at": "document_start"
         }
     ],
-    "description": "KavkazCenter links substitution, ljtimes killer (Mar 9, 2014)",
-    "name": "Netvibes RSS Reader improvements; ljTimes killer; 2r2tz6wzqh7gaji7.onion.to auto clicker",
-    "version": "1.86",
+    "name": "UglyFix",
+    "description": "Fixes for some ugly sites (Mar 10, 2014)",
+    "version": "1.9",
     "manifest_version": 2
 }

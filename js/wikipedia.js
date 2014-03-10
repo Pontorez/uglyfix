@@ -6,17 +6,18 @@ $("a:contains('(G)')").each(function () {
     this.href = this.href.replace('hl=ru', 'hl=en');
 });
 
-// "Красивые" имена файлов при сохранении страниц
+// «Красивые» имена файлов при сохранении страниц
 document.title = document.title.replace(' — Википедия', '').replace(' - Wikipedia, the free encyclopedia', '');
 
 // Различия между версиями — переход на предыдущую/следующую правку с помощью C+Left / C+Right
-if (window.location.toString().indexOf('oldid')) {
+var WLTS = window.location.toString();
+if (WLTS.indexOf('oldid=') != -1 && WLTS.indexOf('diff=') != -1) {
     window.onkeydown = function (e) {
 
         e = e || window.event;
-        var keyCode = e.keyCode || e.which;
 
         if (e.ctrlKey) {
+            var keyCode = e.keyCode || e.which;
             try {
                 if (keyCode == 37) {
                     document.getElementById('differences-prevlink').click();

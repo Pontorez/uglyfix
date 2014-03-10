@@ -1,11 +1,10 @@
 http://www.livejournal.com/
-Скрытие полоски LJ Times внизу страницы
+1. Скрывать полоску LJ Times внизу страницы (#ljtime)
+2. Скрывать слой со ссылками для перехода к следующему/предыдущему посту (.b-singlepost-prevnext)
 
 http://www.kcblog.info/
-Цвет основного текста сделан чёрным вместо серого
-
-https://onion.to/
-Автоматическое нажатие на кнопку "Continue" для перехода на целевой сайт
+1. Менять цвет текста на чёрный
+2. Менять цвет фона на белый
 
 https://www.google.ru/search
 1. Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
@@ -15,9 +14,9 @@ https://mail.google.com/
 Скрывать рекламу над списком сообщений
 
 http://newsru.com/
-1. Залёный полосатый background заменён на серый
+1. Менять полосатый background на серый
 2. Скрывать блок СМИ2 (слева на странице с отдельной новостью)
-3. set main text align to left no justify
+3. Выравнивать текст статьи по левому краю (вместо justify)
 4. Скрывать баннеры справа
 
 http://hh.ru/
@@ -26,9 +25,11 @@ http://hh.ru/
 http://career.ru/
 Скрывать баннеры справа
 
-http://antizapret.info/ - ставить реальные ссылки на сайты
+http://antizapret.info/
+Ставить гиперссылки на сайты
 
-http://blogarbik.ru/?p=4495 - increase main font size
+http://blogarbik.ru/?p=4495
+Увеличить размер шрифта
 
 https://inoreader.com/
 1. max-width контента - 100% вместо 650px
