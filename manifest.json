@@ -87,7 +87,7 @@
         }
     ],
     "name": "UglyFix",
-    "description": "Fixes for some ugly sites (Mar 10, 2014)",
-    "version": "1.9",
+    "description": "Fixes for some ugly sites (Mar 25, 2014)",
+    "version": "1.91",
     "manifest_version": 2
 }

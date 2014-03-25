@@ -4,7 +4,7 @@ window.onkeydown = function (e) {
     e = e || window.event;
     var keyCode = e.keyCode || e.which;
 
-    if (e.ctrlKey) {
+    if (e.ctrlKey && document.activeElement.tagName != 'INPUT') {
         var domTargetLink;
         if (keyCode == 37) {
             domTargetLink = document.getElementById('pnprev');

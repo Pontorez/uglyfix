@@ -11,3 +11,13 @@ div.article_content {
 div#subscriptions_nav>div>a {
     display: none;
 }
+
+/* Менять цвет «основного» шрифта с #2E415C на #000 */
+.article_full_contents {
+    color: #000 !important;
+}
+
+/* Уменьшить отступ слева от текста (44px -> 20px) */
+.article_card {
+    padding-left: 20px !important;
+}
