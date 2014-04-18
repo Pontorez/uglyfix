@@ -84,10 +84,14 @@
             "matches": ["http://inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*"],
             "js": ["js/https.js"],
             "run_at": "document_start"
+        },
+        {
+            "matches": ["http://www.intimcity.nl/search2.php"],
+            "js": ["js/intimcity.nl.js"]
         }
     ],
     "name": "UglyFix",
-    "description": "Fixes for some ugly sites (Mar 25, 2014)",
-    "version": "1.91",
+    "description": "Fixes for some ugly sites (Apr 18, 2014)",
+    "version": "1.92",
     "manifest_version": 2
 }

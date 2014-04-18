@@ -47,10 +47,10 @@ https://ru.wikipedia.org/
 http://dooma.ru/images/4767
 Листание изображений с помощью C+Left/C+Right
 
-===
+http://www.intimcity.nl/search2.php
+Закрывать всплывающее окно при нажатии Esc
 
-TODO:
-https://inoreader.com/#all_articles:
+===
 
 DEPRECATED:
 http://www.netvibes.com/privatepage/1
