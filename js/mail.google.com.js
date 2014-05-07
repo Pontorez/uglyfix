@@ -7,12 +7,9 @@ function hideAds() {
     }
 }
 
-window.onmouseup = function() {
+window.onhashchange = window.onload = window.onmouseup = function() {
     hideAds();
-    setTimeout('hideAds()', 100);
-    setTimeout('hideAds()', 500);
-};
-
-window.onload = function() {
-    hideAds();
+    setTimeout(hideAds, 100);
+    setTimeout(hideAds, 500);
+    setTimeout(hideAds, 1000);
 };

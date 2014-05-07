@@ -81,7 +81,7 @@
             "css": ["css/career.ru.css"]
         },
         {
-            "matches": ["http://inoreader.com/*", "http://www.inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*"],
+            "matches": ["http://inoreader.com/*", "http://www.inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*", "http://www.youtube.com/*"],
             "js": ["js/https.js"],
             "run_at": "document_start"
         },
@@ -101,7 +101,7 @@
         }
     ],
     "name": "UglyFix",
-    "description": "Fixes for some ugly sites (Apr 27, 2014)",
-    "version": "1.93",
+    "description": "Fixes for some ugly sites (May 7, 2014)",
+    "version": "1.94",
     "manifest_version": 2
 }

@@ -14,4 +14,22 @@ if (jQuery('h1.bld').length && location.search.indexOf('PeoplePicker') == -1) {
 setInterval(function () {
     var checkMessagesLink = document.getElementById('lnkHdrcheckmessages');
     checkMessagesLink && checkMessagesLink.click();
-}, 60000);
+}, 20000);
+
+window.onkeydown = function (e) {
+
+    e = e || window.event;
+    var keyCode = e.keyCode || e.which;
+
+    if (e.ctrlKey) {
+        var elementToClick;
+        if (keyCode == 37) {
+            elementToClick = document.getElementById('lnkHdrprevious');
+        } else if (keyCode == 39) {
+            elementToClick = document.getElementById('lnkHdrnext');
+        }
+        if (elementToClick) {
+            elementToClick.click();
+        }
+    }
+};
