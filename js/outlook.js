@@ -1,6 +1,6 @@
 "use strict";
 
-if (jQuery('h1.bld').length && location.search.indexOf('PeoplePicker') == -1) {
+if (document.title == 'Входящие - Outlook Web App, light version' && jQuery('h1.bld').length && location.search.indexOf('PeoplePicker') == -1) {
     setInterval(function () {
         var date = new Date();
         if (date.getSeconds() % 2) {

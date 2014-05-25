@@ -64,6 +64,10 @@
             "matches": ["https://inoreader.com/", "https://www.inoreader.com/"],
             "css": [
                 "css/inoreader.css"
+            ],
+            "js": [
+                "js/jquery-2.1.0.min.js",
+                "js/inoreader.js"
             ]
         },
         {
@@ -81,9 +85,17 @@
             "css": ["css/career.ru.css"]
         },
         {
-            "matches": ["http://inoreader.com/*", "http://www.inoreader.com/*", "http://*.wikipedia.org/*", "http://lj.rossia.org/*", "http://stat.netbynet.ru/*", "http://translate.google.com/*", "http://www.youtube.com/*"],
-            "js": ["js/https.js"],
-            "run_at": "document_start"
+            "matches": [
+                "http://inoreader.com/*", "http://www.inoreader.com/*",
+                "http://*.wikipedia.org/*",
+                "http://lj.rossia.org/*",
+                "http://lurkmore.to/*",
+                "http://stat.netbynet.ru/*",
+                "http://translate.google.com/*",
+                "http://vk.com/*",
+                "http://www.youtube.com/*"
+            ],
+            "js": ["js/https.js"]
         },
         {
             "matches": ["http://www.intimcity.nl/*"],
@@ -98,10 +110,15 @@
                 "js/jquery-2.1.0.min.js",
                 "js/outlook.js"
             ]
+        },
+        {
+            "matches": ["https://www.4proxy.de/*"],
+            "js": ["js/4proxy.de.js"],
+            "run_at": "document_start"
         }
     ],
     "name": "UglyFix",
-    "description": "Fixes for some ugly sites (May 7, 2014)",
-    "version": "1.94",
+    "description": "Fixes for some ugly sites (May 25, 2014)",
+    "version": "1.95",
     "manifest_version": 2
 }
