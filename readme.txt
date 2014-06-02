@@ -1,6 +1,5 @@
 http://www.livejournal.com/
-1. Скрывать полоску LJ Times внизу страницы (#ljtime)
-2. Скрывать слой со ссылками для перехода к следующему/предыдущему посту (.b-singlepost-prevnext)
+Скрывать полоску livejournal magazine внизу страницы
 
 http://www.kcblog.info/
 1. Менять цвет текста на чёрный

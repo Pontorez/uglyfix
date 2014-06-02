@@ -118,7 +118,11 @@
         }
     ],
     "name": "UglyFix",
-    "description": "Fixes for some ugly sites (May 25, 2014)",
-    "version": "1.95",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "homepage_url": "https://bitbucket.org/Vasya999/netvibesimprovements/",
+    "icons": {
+        "48": "img/icon48.png"
+    },
+    "description": "Fixes for some ugly sites (Jun 2, 2014)",
+    "version": "1.96"
 }

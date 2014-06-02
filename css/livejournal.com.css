@@ -1,3 +1,4 @@
-#ljtime, .b-singlepost-prevnext {
+/* Скрывать полоску livejournal magazine внизу страницы */
+.b-ljtimes-wrapper.b-ljtimes-wrapper_v2 {
     display: none;
 }

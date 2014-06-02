@@ -7,11 +7,11 @@ $("a:contains('(G)')").each(function () {
 });
 
 // «Красивые» имена файлов при сохранении страниц
-document.title = document.title.replace(' — Википедия', '').replace(' - Wikipedia, the free encyclopedia', '');
+document.title = document.title.replace(' - Википедия', '').replace(' - Wikipedia, the free encyclopedia', '');
 
 // Различия между версиями — переход на предыдущую/следующую правку с помощью C+Left / C+Right
 var WLTS = window.location.toString();
-if (WLTS.indexOf('oldid=') != -1 && WLTS.indexOf('diff=') != -1) {
+if (WLTS.indexOf('diff=') != -1) {
     window.onkeydown = function (e) {
 
         e = e || window.event;
