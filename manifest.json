@@ -47,6 +47,7 @@
         },
         {
             "matches": ["https://*.wikipedia.org/w*"],
+            "css": ["css/wikipedia.css"],
             "js": [
                 "js/jquery-2.1.0.min.js",
                 "js/wikipedia.js"
@@ -85,12 +86,21 @@
             "css": ["css/career.ru.css"]
         },
         {
+            "matches": ["https://sextalk.ru/*"],
+            "js": [
+                "js/jquery-2.1.0.min.js",
+                "js/sextalk.ru.js"
+            ]
+        },
+        {
             "matches": [
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://*.wikipedia.org/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
+                "http://sextalk.ru/*",
                 "http://stat.netbynet.ru/*",
+                "http://thepiratebay.se/*",
                 "http://translate.google.com/*",
                 "http://vk.com/*",
                 "http://www.youtube.com/*"
@@ -123,6 +133,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jun 2, 2014)",
-    "version": "1.96"
+    "description": "Fixes for some ugly sites (Jun 10, 2014)",
+    "version": "1.97"
 }

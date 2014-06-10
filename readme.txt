@@ -1,5 +1,4 @@
-http://www.livejournal.com/
-Скрывать полоску livejournal magazine внизу страницы
+http://www.livejournal.com/ — скрывать полоску livejournal magazine внизу страницы
 
 http://www.kcblog.info/
 1. Менять цвет текста на чёрный
@@ -9,8 +8,7 @@ https://www.google.ru/search
 1. Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
 2. Скрывать рекламу сверху и снизу результатов поиска
 
-https://mail.google.com/
-Скрывать рекламу над списком сообщений
+https://mail.google.com/ — скрывать рекламу над списком сообщений
 
 http://newsru.com/
 1. Менять полосатый background на серый
@@ -18,17 +16,13 @@ http://newsru.com/
 3. Выравнивать текст статьи по левому краю (вместо justify)
 4. Скрывать баннеры справа
 
-http://hh.ru/
-Скрывать баннеры сверху и справа
+http://hh.ru/ — скрывать баннеры сверху и справа
 
-http://career.ru/
-Скрывать баннеры справа
+http://career.ru/ — скрывать баннеры справа
 
-http://antizapret.info/
-Ставить гиперссылки на сайты
+http://antizapret.info/ — ставить гиперссылки на сайты и открывать их через 4proxy.de
 
-http://blogarbik.ru/?p=4495
-Увеличить размер шрифта
+http://blogarbik.ru/?p=4495 — увеличить размер шрифта
 
 https://inoreader.com/
 1. max-width контента — 100% вместо 650px
@@ -42,9 +36,9 @@ https://ru.wikipedia.org/
 2. Открывать ссылки на Google Maps в _blank
 3. Убирать ' — Википедия' из title для красивых имён файлов при сохранении страниц
 4. Различия между версиями — переход на предыдущую/следующую правку с помощью C+Left / C+Right
+5. Различия между версиями — выделять цветом ссылки на предыдущую/следующую правку
 
-http://dooma.ru/images/4767
-Листание изображений с помощью C+Left/C+Right
+http://dooma.ru/images/4767 — листание изображений с помощью C+Left/C+Right
 
 http://www.intimcity.nl/
 1. /search2.php — Закрывать всплывающее окно при нажатии Esc
@@ -56,6 +50,8 @@ https://192.168.35.31/owa/
 2. Горячие клавиши для перехода к следующему/предыдущему сообщению
 
 http://www.kavkazcenter.com/ — открывать через прокси для обхода цензуры
+
+http://sextalk.ru/ — менять http на https в ссылках
 
 ===
 
