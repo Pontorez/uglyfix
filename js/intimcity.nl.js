@@ -6,6 +6,8 @@ if (isNoService.length) {
     $('body').css('background-color', '#741717');
 }
 
+$('td.psnCrd13:contains("Новая анкета!")').parent().parent().parent().parent().parent().parent().css('background-color', 'rgb(248, 169, 151)');
+
 window.onkeydown = function (e) {
     e = e || window.event;
     var keyCode = e.keyCode || e.which;

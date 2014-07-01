@@ -115,6 +115,13 @@
             ]
         },
         {
+            "matches": ["https://lj.rossia.org/*"],
+            "js": [
+                "js/jquery-2.1.0.min.js",
+                "js/lj.rossia.org.js"
+            ]
+        },
+        {
             "matches": ["https://192.168.35.31/owa/*"],
             "js": [
                 "js/jquery-2.1.0.min.js",
@@ -133,6 +140,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jun 10, 2014)",
-    "version": "1.97"
+    "description": "Fixes for some ugly sites (Jul 1, 2014)",
+    "version": "2.0"
 }
