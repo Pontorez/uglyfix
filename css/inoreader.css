@@ -2,9 +2,9 @@ div.article_content {
     max-width: 100%;
 }
 
+/* Возможность кликнуть на скроллбар, когда курсор прижат к правой части экрана */
 #reader_pane {
-    position: absolute;
-    right: 0;
+    margin-right: -1px;
 }
 
 /* Don't show InoReader logo */

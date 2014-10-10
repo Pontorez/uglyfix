@@ -3,6 +3,8 @@
     padding: 3px;
 }
 
-.interlanguage-link.interwiki-ru, .interlanguage-link.interwiki-en, .interlanguage-link.interwiki-eo {
-    background: rgb(248, 169, 151);
+.interlanguage-link.interwiki-ru,
+.interlanguage-link.interwiki-en, .interlanguage-link.interwiki-en.GA,
+.interlanguage-link.interwiki-eo {
+    background-color: rgb(248, 169, 151);
 }
