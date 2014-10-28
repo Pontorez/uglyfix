@@ -54,7 +54,7 @@
             ]
         },
         {
-            "matches": ["http://antizapret.info/*"],
+            "matches": ["https://antizapret.info/*"],
             "css": ["css/antizapret.info.css"],
             "js": [
                 "js/jquery-2.1.0.min.js",
@@ -140,6 +140,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 14, 2014)",
-    "version": "2.2"
+    "description": "Fixes for some ugly sites (Oct 28, 2014)",
+    "version": "2.21"
 }

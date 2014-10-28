@@ -9,6 +9,6 @@ $('div.html label').each(function () {
 });
 
 // Список ссылок на страницы - например, http://antizapret.info/?p=2
-$('div.html a[href ^= "/site.php?id="]').each(function () {
+$('div.html a[href ^= "https://antizapret.info/site.php?id="]').each(function () {
     $('<a class="openLink" href="https://www.4proxy.de/###http://' + $(this).text() + '" target="_blank">⇨</a>').insertAfter(this);
 });
