@@ -95,6 +95,7 @@
         {
             "matches": [
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
+                "http://www.intimcity.nl/*",
                 "http://*.wikipedia.org/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
@@ -108,7 +109,7 @@
             "js": ["js/https.js"]
         },
         {
-            "matches": ["http://www.intimcity.nl/*"],
+            "matches": ["https://www.intimcity.nl/*"],
             "js": [
                 "js/jquery-2.1.0.min.js",
                 "js/intimcity.nl.js"
@@ -140,6 +141,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 28, 2014)",
-    "version": "2.21"
+    "description": "Fixes for some ugly sites (Oct 30, 2014)",
+    "version": "2.22"
 }
