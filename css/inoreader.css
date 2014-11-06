@@ -19,5 +19,5 @@ div#subscriptions_nav>div>a {
 
 /* Уменьшить отступ слева от текста (44px -> 20px) */
 .article_card {
-    padding-left: 20px !important;
+    padding-left: 16px !important;
 }

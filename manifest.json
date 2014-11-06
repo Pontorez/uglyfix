@@ -62,7 +62,7 @@
             ]
         },
         {
-            "matches": ["https://inoreader.com/", "https://www.inoreader.com/"],
+            "matches": ["https://inoreader.com/*", "https://www.inoreader.com/*"],
             "css": [
                 "css/inoreader.css"
             ],
@@ -141,6 +141,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 30, 2014)",
-    "version": "2.22"
+    "description": "Fixes for some ugly sites (Nov 6, 2014)",
+    "version": "2.23"
 }
