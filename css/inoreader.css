@@ -21,3 +21,8 @@ div#subscriptions_nav>div>a {
 .article_card {
     padding-left: 16px !important;
 }
+
+/* Уменьшить высоту шапки */
+#subscriptions_buttons {
+    zoom: 66%;
+}
