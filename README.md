@@ -1,13 +1,14 @@
-http://www.livejournal.com/
-  * Скрывать полоску livejournal magazine внизу страницы
+#### http://www.livejournal.com/
+* Скрывать полоску livejournal magazine внизу страницы
 
-http://www.kcblog.info/
-  * Менять цвет текста на чёрный
-  * Менять цвет фона на белый
+#### http://www.kcblog.info/
 
-https://www.google.ru/search
-  * Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
-  * Скрывать рекламу сверху и снизу результатов поиска
+* Менять цвет текста на чёрный
+* Менять цвет фона на белый
+
+#### https://www.google.ru/search
+* Горячие клавиши Ctrl+Left/Ctrl+Right для пагинации
+* Скрывать рекламу сверху и снизу результатов поиска
 
 https://mail.google.com/
   * Скрывать рекламу над списком сообщений
