@@ -11,11 +11,6 @@ if (document.title == 'Входящие - Outlook Web App, light version' && jQu
     }, 500);
 }
 
-setInterval(function () {
-    var checkMessagesLink = document.getElementById('lnkHdrcheckmessages');
-    checkMessagesLink && checkMessagesLink.click();
-}, 20000);
-
 window.onkeydown = function (e) {
 
     e = e || window.event;
@@ -32,4 +27,12 @@ window.onkeydown = function (e) {
             elementToClick.click();
         }
     }
+};
+
+window.onload = window.onmousemove = function () {
+    clearInterval(window.updateInterval);
+    window.updateInterval = setInterval(function () {
+        var checkMessagesLink = document.getElementById('lnkHdrcheckmessages');
+        checkMessagesLink && checkMessagesLink.click();
+    }, 20000);
 };
