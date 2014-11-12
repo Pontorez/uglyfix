@@ -29,10 +29,14 @@ window.onkeydown = function (e) {
     }
 };
 
-window.onload = window.onmousemove = function () {
+function resetInterval() {
     clearInterval(window.updateInterval);
     window.updateInterval = setInterval(function () {
         var checkMessagesLink = document.getElementById('lnkHdrcheckmessages');
         checkMessagesLink && checkMessagesLink.click();
     }, 20000);
-};
+}
+
+resetInterval();
+
+window.onmousemove = resetInterval;
