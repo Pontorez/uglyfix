@@ -2,3 +2,13 @@
 .b-ljtimes-wrapper.b-ljtimes-wrapper_v2 {
     display: none;
 }
+
+/* dr-japh.livejournal.com — скрывать баннер в верхней части страницы */
+.common-banner {
+    display: none;
+}
+
+/* dr-japh.livejournal.com — скрывать Яндекс.директ внизу страницы */
+div.ya-context {
+    display: none;
+}
