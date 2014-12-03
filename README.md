@@ -1,5 +1,6 @@
 #### http://www.livejournal.com/
 * Скрывать полоску livejournal magazine внизу страницы
+* Скрывать баннеры
 
 #### http://www.kcblog.info/
 * Менять цвет текста на чёрный
