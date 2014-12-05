@@ -68,3 +68,6 @@
 
 #### https://lj.rossia.org/
 * Навигация с помощью C+Left/C+Right
+
+#### https://www.youtube.com/watch?v=J0d8874FNUw
+* Скрывать рекламу в сайдбаре

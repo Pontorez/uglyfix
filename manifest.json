@@ -18,6 +18,10 @@
             "js": ["js/mail.google.com.js"]
         },
         {
+            "matches": ["https://www.youtube.com/*"],
+            "css": ["css/youtube.css"]
+        },
+        {
             "matches": ["http://www.kcblog.info/*"],
             "js": [
                 "js/kcblog.info.js"
@@ -137,10 +141,10 @@
     ],
     "name": "UglyFix",
     "manifest_version": 2,
-    "homepage_url": "https://bitbucket.org/Vasya999/netvibesimprovements/",
+    "homepage_url": "https://github.com/Pontorez/uglyfix",
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 3, 2014)",
-    "version": "2.27"
+    "description": "Fixes for some ugly sites (Dec 5, 2014)",
+    "version": "2.28"
 }
