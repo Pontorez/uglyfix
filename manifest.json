@@ -108,7 +108,8 @@
                 "http://thepiratebay.se/*",
                 "http://translate.google.com/*",
                 "http://vk.com/*",
-                "http://www.youtube.com/*"
+                "http://www.youtube.com/*",
+                "http://www.gibdd.ru/*"
             ],
             "js": ["js/https.js"]
         },
@@ -145,6 +146,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 5, 2014)",
-    "version": "2.28"
+    "description": "Fixes for some ugly sites (Dec 12, 2014)",
+    "version": "2.29"
 }
