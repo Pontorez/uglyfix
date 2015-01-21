@@ -26,3 +26,13 @@ div#subscriptions_nav>div>a {
 #subscriptions_buttons {
     zoom: 66%;
 }
+
+/* Не показывать баннер в верхней части страницы */
+.block_article_ad.leaderboard_ad.ad_size_leaderboard.sinner {
+    display: none;
+}
+
+/* Не показывать зелёную кнопку «Upgrade» справа сверху */
+.inno_toolbar_button.inno_toolbar_button_upgrade {
+    display: none;
+}
