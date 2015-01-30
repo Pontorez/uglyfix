@@ -27,8 +27,10 @@ div#subscriptions_nav>div>a {
     zoom: 66%;
 }
 
-/* Не показывать баннер в верхней части страницы */
-.block_article_ad.leaderboard_ad.ad_size_leaderboard.sinner {
+/* Не показывать баннер в верхней части страницы и надпись «Remove ads» под ним */
+.block_article_ad.leaderboard_ad.ad_size_leaderboard.sinner, /* Баннер */
+.ad_title.ad_title_centered /* Надпись */
+{
     display: none;
 }
 
