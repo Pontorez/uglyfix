@@ -1,3 +1,8 @@
-.topbanner, .rightbanners, .b-vacancy-bannerplace, .i-topbanner {
+.topbanner,
+.rightbanners,
+.b-vacancy-bannerplace,
+.i-topbanner,
+div.b-mainbanner /* http://hh.ru/vacancy/12349408, top of page */
+{
     display: none;
 }
