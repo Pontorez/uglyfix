@@ -82,7 +82,7 @@
             ]
         },
         {
-            "matches": ["http://hh.ru/*"],
+            "matches": ["http://*.hh.ru/*", "http://*.hh.ua/*", "http://*.hh.kz/*", "http://jobs.tut.by/*", "http://jobs.day.az/*"],
             "css": ["css/hh.ru.css"]
         },
         {
@@ -147,5 +147,5 @@
         "48": "img/icon48.png"
     },
     "description": "Fixes for some ugly sites (Feb 4, 2015)",
-    "version": "2.33"
+    "version": "2.34"
 }
