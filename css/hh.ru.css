@@ -2,7 +2,8 @@
 .rightbanners,
 .b-vacancy-bannerplace,
 .i-topbanner,
-div.b-mainbanner /* http://hh.ru/vacancy/12349408, top of page */
+div.b-mainbanner, /* http://hh.ru/vacancy/12349408, top of page */
+.b-rvsearchresult-banner /* Похожие вакансии */
 {
     display: none;
 }
