@@ -98,9 +98,9 @@
         },
         {
             "matches": [
+                "http://www.gibdd.ru/*",
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.intimcity.nl/*",
-                "http://*.wikipedia.org/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
                 "http://sextalk.ru/*",
@@ -108,8 +108,9 @@
                 "http://thepiratebay.se/*",
                 "http://translate.google.com/*",
                 "http://vk.com/*",
+                "http://www.urbandictionary.com/*",
                 "http://www.youtube.com/*",
-                "http://www.gibdd.ru/*"
+                "http://*.wikipedia.org/*"
             ],
             "js": ["js/https.js"]
         },
@@ -146,6 +147,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Feb 14, 2015)",
-    "version": "2.35"
+    "description": "Fixes for some ugly sites (Mar 8, 2015)",
+    "version": "2.36"
 }
