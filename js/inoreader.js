@@ -19,3 +19,7 @@ window.onmousedown = function () {
     });
 
 };
+
+window.onmousemove = function () {
+    document.getElementById('sinner_container').style.display = 'none';
+};
