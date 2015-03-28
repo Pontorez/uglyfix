@@ -38,3 +38,8 @@ div#subscriptions_nav>div>a {
 .inno_toolbar_button.inno_toolbar_button_upgrade {
     display: none;
 }
+
+/* Banner below some RSS feed items */
+.avs_iframe {
+    display: none;
+}
