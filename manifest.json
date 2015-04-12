@@ -112,7 +112,8 @@
                 "http://www.youtube.com/*",
                 "http://*.wikipedia.org/*"
             ],
-            "js": ["js/https.js"]
+            "js": ["js/https.js"],
+            "run_at": "document_start"
         },
         {
             "matches": ["https://www.intimcity.nl/*"],
@@ -147,6 +148,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Mar 28, 2015)",
-    "version": "2.38"
+    "description": "Fixes for some ugly sites (Apr 12, 2015)",
+    "version": "2.39"
 }
