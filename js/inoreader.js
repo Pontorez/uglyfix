@@ -20,6 +20,6 @@ window.onmousedown = function () {
 
 };
 
-window.onmousemove = function () {
+window.onmousemove = window.onkeydown = function () {
     document.getElementById('sinner_container').style.display = 'none';
 };
