@@ -4,7 +4,7 @@
             "matches": ["http://www.netvibes.com/privatepage/*"],
             "css": ["css/netvibes.com.css"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/netvibes.com.js"
             ]
         },
@@ -30,7 +30,7 @@
         {
             "matches": ["http://*.newsru.com/*"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/newsru.com.js"
             ],
             "css": [
@@ -53,7 +53,7 @@
             "matches": ["https://*.wikipedia.org/w*"],
             "css": ["css/wikipedia.css"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/wikipedia.js"
             ]
         },
@@ -61,7 +61,7 @@
             "matches": ["https://antizapret.info/*"],
             "css": ["css/antizapret.info.css"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/antizapret.info.js"
             ]
         },
@@ -71,7 +71,7 @@
                 "css/inoreader.css"
             ],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/inoreader.js"
             ]
         },
@@ -92,7 +92,7 @@
         {
             "matches": ["https://sextalk.ru/*"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/sextalk.ru.js"
             ]
         },
@@ -116,23 +116,30 @@
             "run_at": "document_start"
         },
         {
+            "matches": ["https://www.gibdd.ru/check/fines/*"],
+            "js": [
+                "js/jquery-2.1.4.min.js",
+                "js/gibdd.ru.js"
+            ]
+        },
+        {
             "matches": ["https://www.intimcity.nl/*"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/intimcity.nl.js"
             ]
         },
         {
             "matches": ["https://lj.rossia.org/*"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/lj.rossia.org.js"
             ]
         },
         {
             "matches": ["https://192.168.35.31/owa/*"],
             "js": [
-                "js/jquery-2.1.3.min.js",
+                "js/jquery-2.1.4.min.js",
                 "js/outlook.js"
             ]
         },
@@ -148,6 +155,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (May 20, 2015)",
-    "version": "2.40"
+    "description": "Fixes for some ugly sites (May 24, 2015)",
+    "version": "2.41"
 }
