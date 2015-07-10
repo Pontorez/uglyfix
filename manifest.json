@@ -98,7 +98,6 @@
         },
         {
             "matches": [
-                "http://www.gibdd.ru/*",
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.intimcity.nl/*",
                 "http://lj.rossia.org/*",
@@ -116,7 +115,7 @@
             "run_at": "document_start"
         },
         {
-            "matches": ["https://www.gibdd.ru/check/fines/*"],
+            "matches": ["http://www.gibdd.ru/check/fines/*"],
             "js": [
                 "js/jquery-2.1.4.min.js",
                 "js/gibdd.ru.js"
@@ -155,6 +154,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (May 24, 2015)",
-    "version": "2.41"
+    "description": "Fixes for some ugly sites (Jul 10, 2015)",
+    "version": "2.42"
 }
