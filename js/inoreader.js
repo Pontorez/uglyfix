@@ -21,5 +21,8 @@ window.onmousedown = function () {
 };
 
 window.onmousemove = window.onkeydown = function () {
-    document.getElementById('sinner_container').style.display = 'none';
+    var sinner_container = document.getElementById('sinner_container');
+    if (sinner_container) {
+        sinner_container.style.display = 'none';
+    }
 };
