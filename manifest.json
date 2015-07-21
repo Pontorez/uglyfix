@@ -148,6 +148,10 @@
             "run_at": "document_start"
         }
     ],
+    "background": {
+        "scripts": ["js/pure_url.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "\u003Call_urls>"],
     "name": "UglyFix",
     "manifest_version": 2,
     "homepage_url": "https://github.com/Pontorez/uglyfix",
@@ -155,5 +159,5 @@
         "48": "img/icon48.png"
     },
     "description": "Fixes for some ugly sites (Jul 21, 2015)",
-    "version": "2.45"
+    "version": "2.46"
 }
