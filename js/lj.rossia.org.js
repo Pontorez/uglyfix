@@ -11,7 +11,7 @@ $(function () {
                     if (keyCode == 37) {
                         window.location = $('a:contains("earlier"), a:contains("<< Previous ")')[0].href;
                     } else if (keyCode == 39) {
-                        window.location = $('a:contains("later"), a:contains("Next 20 >>")')[0].href;
+                        window.location = $('a:contains("later"), a:contains("Next 20")')[0].href;
                     }
                 } catch (e) {
                     alert('No more pages');
