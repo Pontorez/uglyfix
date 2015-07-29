@@ -143,6 +143,14 @@
             ]
         },
         {
+            "matches": ["https://login.skype.com/login?*"],
+            "js": [
+                "js/jquery-2.1.4.min.js",
+                "js/skype.com.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
             "matches": ["https://www.4proxy.de/*"],
             "js": ["js/4proxy.de.js"],
             "run_at": "document_start"
@@ -158,6 +166,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jul 21, 2015)",
-    "version": "2.46"
+    "description": "Fixes for some ugly sites (Jul 29, 2015)",
+    "version": "2.47"
 }
