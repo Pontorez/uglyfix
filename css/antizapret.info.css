@@ -4,6 +4,10 @@
     margin-left: 8px;
 }
 
+.openLink.direct {
+    color: green;
+}
+
 .openLink:visited {
     color: #aaa;
 }
