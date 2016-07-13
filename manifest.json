@@ -82,7 +82,7 @@
             ]
         },
         {
-            "matches": ["http://*.hh.ru/*", "http://*.hh.ua/*", "http://*.hh.kz/*", "http://jobs.tut.by/*", "http://jobs.day.az/*"],
+            "matches": ["https://*.hh.ru/*", "http://*.hh.ua/*", "http://*.hh.kz/*", "http://jobs.tut.by/*", "http://jobs.day.az/*"],
             "css": ["css/hh.ru.css"]
         },
         {
@@ -136,9 +136,9 @@
             ]
         },
         {
-            "matches": ["https://192.168.35.31/owa/*"],
+            "matches": ["https://*.pl/owa/*"],
             "js": [
-                "js/jquery-2.1.4.min.js",
+                "js/jquery-3.1.0.min.js",
                 "js/outlook.js"
             ]
         },
@@ -166,6 +166,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Aug 13, 2015)",
-    "version": "2.49"
+    "description": "Fixes for some ugly sites (Jul 13, 2016)",
+    "version": "2.50"
 }
