@@ -8,5 +8,5 @@ $(function () {
     }, 5000);
 });
 
-localStorage.setItem('username', 'pontorez.com');
-localStorage.setItem('password', 'catzzz777');
+localStorage.setItem('username', 'xxx');
+localStorage.setItem('password', 'yyy');
