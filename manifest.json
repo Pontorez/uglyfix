@@ -30,11 +30,8 @@
         {
             "matches": ["http://*.newsru.com/*"],
             "js": [
-                "js/jquery-2.1.4.min.js",
+                "js/jquery-3.1.0.min.js",
                 "js/newsru.com.js"
-            ],
-            "css": [
-                "css/newsru.com.css"
             ]
         },
         {
@@ -166,6 +163,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jul 13, 2016)",
-    "version": "2.50"
+    "description": "Fixes for some ugly sites (Jul 30, 2016)",
+    "version": "2.51"
 }
