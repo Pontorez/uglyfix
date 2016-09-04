@@ -3,7 +3,7 @@
 // Get rid of annoying background:
 document.body.style.background = '#555';
 
-$('#vkshare0').parent().parent().parent().hide();
+$('.share-block').hide(); // hide retweet, facebook, vk, etc buttons
 $('.right-column-prm').hide();
 
 window.onkeydown = function (e) {
