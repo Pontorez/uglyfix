@@ -43,3 +43,8 @@ div#subscriptions_nav>div>a {
 .avs_iframe {
     display: none;
 }
+
+/* Remove empty space for banners */
+#reader_pane.reader_pane_sinner {
+    padding-right: 0 !important;
+}
