@@ -1,9 +1,4 @@
 "use strict";
-window.onkeydown = function (e) {
-    if (e.key == "'") {
-        checkNewMessages();
-    }
-};
 
 function checkNewMessages() {
     var unreadMessages = $('div.conversation:not(.read)');
