@@ -151,10 +151,22 @@
             "matches": ["https://www.4proxy.de/*"],
             "js": ["js/4proxy.de.js"],
             "run_at": "document_start"
+        },
+        {
+            "matches": ["https://mail.protonmail.com/inbox"],
+            "js": [
+                "js/jquery-3.1.1.min.js",
+                "js/protonmail.js"
+            ],
+            "run_at": "document_start"
         }
     ],
     "background": {
-        "scripts": ["js/pure_url.js"]
+        "scripts": [
+            "js/jquery-3.1.1.min.js",
+            "js/pure_url.js",
+            "js/background.js"
+        ]
     },
     "permissions": ["webRequest", "webRequestBlocking", "\u003Call_urls>"],
     "name": "UglyFix",
@@ -163,6 +175,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 3, 2016)",
-    "version": "2.53"
+    "description": "Fixes for some ugly sites (Dec 8, 2016)",
+    "version": "2.54"
 }
