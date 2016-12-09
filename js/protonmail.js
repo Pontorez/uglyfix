@@ -1,6 +1,9 @@
 "use strict";
 
 function checkNewMessages() {
+    if (window.location.href != "https://mail.protonmail.com/inbox") {
+        return;
+    }
     var unreadMessages = $('div.conversation:not(.read)');
     var result = [];
     $.each(unreadMessages, function (i, message) {

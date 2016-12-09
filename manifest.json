@@ -153,7 +153,7 @@
             "run_at": "document_start"
         },
         {
-            "matches": ["https://mail.protonmail.com/inbox"],
+            "matches": ["https://mail.protonmail.com/*"],
             "js": [
                 "js/jquery-3.1.1.min.js",
                 "js/protonmail.js"
@@ -175,6 +175,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 8, 2016)",
-    "version": "2.54"
+    "description": "Fixes for some ugly sites (Dec 9, 2016)",
+    "version": "2.55"
 }
