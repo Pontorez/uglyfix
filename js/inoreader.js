@@ -13,8 +13,8 @@ window.onmousedown = function () {
 };
 
 window.onmousemove = window.onkeydown = function () {
-    var sinner_container = document.getElementById('sinner_container');
-    if (sinner_container) {
-        sinner_container.style.display = 'none';
-    }
 };
+
+$("#reader_pane").bind("DOMSubtreeModified", function() {
+    $('.article_title_link:contains("at Coolblue")').css('text-decoration', 'line-through');
+});

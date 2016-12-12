@@ -48,3 +48,7 @@ div#subscriptions_nav>div>a {
 #reader_pane.reader_pane_sinner {
     padding-right: 0 !important;
 }
+
+#sinner_container {
+    display: none !important;
+}
