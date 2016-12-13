@@ -1,14 +1,6 @@
 {
     "content_scripts": [
         {
-            "matches": ["http://www.netvibes.com/privatepage/*"],
-            "css": ["css/netvibes.com.css"],
-            "js": [
-                "js/jquery-3.1.1.min.js",
-                "js/netvibes.com.js"
-            ]
-        },
-        {
             "matches": ["https://www.google.com/*", "https://www.google.ru/*", "https://www.google.de/*"],
             "css": ["css/google.css"],
             "js": ["js/google_search.js"]
@@ -87,10 +79,9 @@
             "css": ["css/career.ru.css"]
         },
         {
-            "matches": ["https://sextalk.ru/*"],
+            "matches": ["http://sextalk.ru/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
-                "js/sextalk.ru.js"
+                "js/https.js"
             ]
         },
         {
@@ -169,12 +160,17 @@
         ]
     },
     "permissions": ["webRequest", "webRequestBlocking", "\u003Call_urls>"],
+    "externally_connectable": {
+        "matches": [
+            "https://mail.protonmail.com/*"
+        ]
+    },
     "name": "UglyFix",
     "manifest_version": 2,
     "homepage_url": "https://github.com/Pontorez/uglyfix",
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 12, 2016)",
-    "version": "2.57"
+    "description": "Fixes for some ugly sites (Dec 13, 2016)",
+    "version": "2.58"
 }

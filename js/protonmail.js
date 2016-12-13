@@ -1,5 +1,9 @@
 "use strict";
 
+$(function () {
+    setInterval('checkNewMessages()', 60000);
+});
+
 function checkNewMessages() {
     if (window.location.href != "https://mail.protonmail.com/inbox") {
         return;
@@ -20,5 +24,3 @@ function checkNewMessages() {
         });
     }
 }
-
-setInterval('checkNewMessages()', 60000);

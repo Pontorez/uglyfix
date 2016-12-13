@@ -21,12 +21,13 @@
 * Скрывать блок СМИ2 (слева на странице с отдельной новостью)
 * Выравнивать текст статьи по левому краю (вместо justify)
 * Скрывать баннеры справа
+* Switch photos using C+Left/C+Right keyboard shortcuts
 
 #### http://hh.ru/
-* Скрывать баннеры сверху и справа
+* Hide banners at the top and right-hand area
 
 #### http://career.ru/
-* Скрывать баннеры справа
+* Hide banners at the right-hand area
 
 #### http://antizapret.info/
 * Ставить гиперссылки на сайты и открывать их через 4proxy.de
@@ -63,17 +64,14 @@
 * Подсветка новых анкет в списке ("Новая анкета!")
 
 #### https://192.168.35.31/owa/
-* Проверять почту каждую минуту
-* Горячие клавиши для перехода к следующему/предыдущему сообщению
-
-#### http://www.kavkazcenter.com/
-* Открывать через прокси для обхода цензуры
-
-#### http://sextalk.ru/
-* Менять http на https в ссылках
+* Check for new messages every minute
+* C+Left/C+Right no navigate to prev/next message
 
 #### https://lj.rossia.org/
-* Навигация с помощью C+Left/C+Right
+* C+Left/C+Right shortcuts no navigate to prev/next 20 entries
 
 #### https://www.youtube.com/watch?v=J0d8874FNUw
-* Скрывать рекламу в сайдбаре
+* Hide ads in the sidebar
+
+#### https://mail.protonmail.com/inbox
+* Send IM notifications when new mail arrives
