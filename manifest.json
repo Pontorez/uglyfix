@@ -79,6 +79,10 @@
             "css": ["css/career.ru.css"]
         },
         {
+            "matches": ["*://geektimes.ru/*", "*://habrahabr.ru/"],
+            "css": ["css/habrahabr_geektimes.css"]
+        },
+        {
             "matches": ["http://sextalk.ru/*"],
             "js": [
                 "js/https.js"
@@ -171,6 +175,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 13, 2016)",
-    "version": "2.58"
+    "description": "Fixes for some ugly sites (Dec 16, 2016)",
+    "version": "2.59"
 }

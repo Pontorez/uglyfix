@@ -17,4 +17,5 @@ window.onmousemove = window.onkeydown = function () {
 
 $("#reader_pane").bind("DOMSubtreeModified", function() {
     $('.article_title_link:contains("at Coolblue")').css('text-decoration', 'line-through');
+    $('.article_title_link:contains("trivago")').css('text-decoration', 'line-through');
 });

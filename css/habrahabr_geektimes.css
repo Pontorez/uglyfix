@@ -1,0 +1,5 @@
+.js-ad_sticky.is_visible,
+.xyz_wrapper {
+    /* Реклама помогает поддерживать и развивать наши сервисы */
+    display: none !important;
+}
