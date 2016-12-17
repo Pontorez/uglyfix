@@ -21,6 +21,9 @@
         },
         {
             "matches": ["http://*.newsru.com/*"],
+            "css": [
+                "css/newsru.com.css"
+            ],
             "js": [
                 "js/jquery-3.1.1.min.js",
                 "js/newsru.com.js"
@@ -30,12 +33,6 @@
             "matches": ["http://*.livejournal.com/*"],
             "css": [
                 "css/livejournal.com.css"
-            ]
-        },
-        {
-            "matches": ["http://blogarbik.ru/*"],
-            "css": [
-                "css/blogarbik.ru.css"
             ]
         },
         {
@@ -175,6 +172,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 16, 2016)",
-    "version": "2.59"
+    "description": "Fixes for some ugly sites (Dec 17, 2016)",
+    "version": "2.60"
 }

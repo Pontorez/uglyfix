@@ -1,0 +1,15 @@
+body {
+    /* Get rid of annoying background */
+    background: #555 !important;
+}
+
+.right-column-prm,
+.section-right-column-prm {
+    /* ads in the right column */
+    display: none !important;
+}
+
+.share-block {
+    /* hide retweet, facebook, vk, etc buttons */
+    display: none !important;
+}

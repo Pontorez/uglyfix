@@ -17,7 +17,7 @@
 * Скрывать рекламу над списком сообщений
 
 #### http://newsru.com/
-* Менять полосатый background на серый
+* Fix annoying background color
 * Скрывать блок СМИ2 (слева на странице с отдельной новостью)
 * Выравнивать текст статьи по левому краю (вместо justify)
 * Скрывать баннеры справа
@@ -31,9 +31,6 @@
 
 #### http://antizapret.info/
 * Ставить гиперссылки на сайты и открывать их через 4proxy.de
-
-#### http://blogarbik.ru/?p=4495
-* Увеличить размер шрифта
 
 #### https://inoreader.com/
 * Возможность кликнуть на скроллбар, когда курсор прижат к правой части экрана
@@ -57,18 +54,18 @@
 #### http://dooma.ru/images/4767
 * Листание изображений с помощью C+Left/C+Right
 
-#### http://www.intimcity.nl/
-* /search2.php — Закрывать всплывающее окно при нажатии Esc
-* C+Left/C+Right — переход на след./пред. страницу
-* Менять оформление страницы при отсутствии некоторых услуг
-* Подсветка новых анкет в списке ("Новая анкета!")
+#### https://www.intimcity.nl/
+* /search2.php — close popup window on Esc keypress
+* C+Left/C+Right keyboard shortcuts to navigate to prev/next page
+* Profile page: change background color if some services are not provided
+* Highlight new ("Новая анкета!") profiles
 
 #### https://192.168.35.31/owa/
 * Check for new messages every minute
 * C+Left/C+Right no navigate to prev/next message
 
 #### https://lj.rossia.org/
-* C+Left/C+Right shortcuts no navigate to prev/next 20 entries
+* C+Left/C+Right shortcuts to navigate to prev/next 20 entries
 
 #### https://www.youtube.com/watch?v=J0d8874FNUw
 * Hide ads in the sidebar

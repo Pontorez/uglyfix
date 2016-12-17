@@ -1,11 +1,5 @@
 "use strict";
 
-// Get rid of annoying background:
-document.body.style.background = '#555';
-
-$('.share-block').hide(); // hide retweet, facebook, vk, etc buttons
-$('.right-column-prm').hide();
-
 window.onkeydown = function (e) {
 
     e = e || window.event;

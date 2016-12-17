@@ -1,6 +1,6 @@
 "use strict";
 
-var isNoService = $('a.noservice:contains("Эротический")');
+var isNoService = $('a.s3:contains("Массаж эротический")');
 if (isNoService.length) {
     isNoService.css('background-color', 'red');
     $('body').css('background-color', '#741717');
