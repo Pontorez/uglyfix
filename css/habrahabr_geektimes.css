@@ -1,3 +1,12 @@
+.layout {
+    background-color: #eee !important;
+}
+
+.layout__base,
+.content_wrapper.column-wrapper_content {
+    background-color: #fff !important;
+}
+
 .js-ad_sticky.is_visible,
 .xyz_wrapper {
     /* Реклама помогает поддерживать и развивать наши сервисы */

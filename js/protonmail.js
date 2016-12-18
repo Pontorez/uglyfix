@@ -1,12 +1,23 @@
 "use strict";
 
 $(function () {
+    window.idleCount = 0;
     setInterval('checkNewMessages()', 60000);
+
+    window.onkeydown = window.onclick = function () {
+        window.idleCount = 0;
+    };
+
 });
 
 function checkNewMessages() {
+    window.idleCount++;
     if (window.location.href != "https://mail.protonmail.com/inbox") {
-        return;
+        if (window.idleCount > 2) {
+            window.location = "/inbox";
+        } else {
+            return;
+        }
     }
     var unreadMessages = $('div.conversation:not(.read)');
     var result = [];
