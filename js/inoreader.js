@@ -10,6 +10,14 @@ window.onmousedown = function () {
         });
     });
 
+    // newsru.com
+    $('.article_title_link[href$="?rss"]:not(".done")').each(function () {
+        $(this).addClass('done').on('click', function() {
+            window.open(this.href.replace(/\?rss$/, ''));
+            return false;
+        });
+    });
+
 };
 
 $("#reader_pane").bind("DOMSubtreeModified", function() {

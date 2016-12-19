@@ -40,8 +40,9 @@
 * Уменьшить отступ слева от текста (44px → 20px)
 * Открывать ссылки на КЦ через прокси, на LJR — через HTTPS
 * Не отображать баннер и надпись «Remove ads» в верхней и в правой частях страницы
-* Не отображать кнопку «Upgrade» в правом верхнем углу страницы
+* Don't show «Upgrade» button at the right top corner of the page
 * Hide banner below some RSS feed items
+* Newsru.com: remove '?rss' param from hyperlinks
 
 #### https://ru.wikipedia.org/
 * Ссылаться на английскую (а не русскую) версию Google Maps
