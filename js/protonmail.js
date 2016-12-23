@@ -12,7 +12,7 @@ $(function () {
 
 function checkNewMessages() {
     window.idleCount++;
-    if (window.location.href != "https://mail.protonmail.com/inbox") {
+    if (window.location.href != "https://mail.protonmail.com/inbox" && $('.composer').length == 0) {
         if (window.idleCount > 2) {
             window.location = "/inbox";
         } else {
@@ -32,7 +32,7 @@ function checkNewMessages() {
 
     if (result.length) {
         try {
-            chrome.runtime.sendMessage('lehpkbijmaedmdfggfpedlpogalglkej', result, function (response) {
+            chrome.runtime.sendMessage(chrome.runtime.id, result, function (response) {
             });
         } catch (e) {
             console.log('FYI: Something wrong with chrome.runtime.sendMessage. Need to reload the page');

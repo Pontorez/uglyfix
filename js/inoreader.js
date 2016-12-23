@@ -11,9 +11,9 @@ window.onmousedown = function () {
     });
 
     // newsru.com
-    $('.article_title_link[href$="?rss"]:not(".done")').each(function () {
+    $('.article_title_link[href^="http://newsru.com/"]:not(".done")').each(function () {
         $(this).addClass('done').on('click', function() {
-            window.open(this.href.replace(/\?rss$/, ''));
+            window.open(this.href.replace(/^http:\/\//, 'https://').replace(/\?rss$/, ''));
             return false;
         });
     });
