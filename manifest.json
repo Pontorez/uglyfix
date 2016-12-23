@@ -76,7 +76,7 @@
             "css": ["css/career.ru.css"]
         },
         {
-            "matches": ["*://geektimes.ru/*", "*://habrahabr.ru/"],
+            "matches": ["*://geektimes.ru/*", "*://habrahabr.ru/*"],
             "css": ["css/habrahabr_geektimes.css"]
         },
         {
