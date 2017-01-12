@@ -91,6 +91,7 @@
                 "http://www.intimcity.nl/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
+                "http://www.newsru.com/*",
                 "http://sextalk.ru/*",
                 "http://stat.netbynet.ru/*",
                 "http://thepiratebay.se/*",
@@ -172,6 +173,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 23, 2016)",
-    "version": "2.63"
+    "description": "Fixes for some ugly sites (Jan 12, 2017)",
+    "version": "2.64"
 }

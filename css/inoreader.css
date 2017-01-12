@@ -22,11 +22,6 @@ div#subscriptions_nav>div>a {
     padding-left: 16px !important;
 }
 
-/* Уменьшить высоту шапки */
-#subscriptions_buttons {
-    zoom: 66%;
-}
-
 /* Не показывать баннер в верхней части страницы и надпись «Remove ads» под ним */
 .block_article_ad.leaderboard_ad.ad_size_leaderboard.sinner, /* Баннер */
 .ad_title.ad_title_centered /* Надпись */

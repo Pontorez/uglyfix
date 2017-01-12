@@ -8,3 +8,7 @@
 .interlanguage-link.interwiki-eo {
     background-color: rgb(248, 169, 151);
 }
+
+div#mw-content-text {
+    font-size: 140%;
+}

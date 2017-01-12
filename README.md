@@ -45,6 +45,7 @@
 * Newsru.com: remove '?rss' param from hyperlinks
 
 #### https://ru.wikipedia.org/
+* Increase font size
 * Ссылаться на английскую (а не русскую) версию Google Maps
 * Открывать ссылки на Google Maps в новом окне
 * Убирать ' — Википедия' из title для красивых имён файлов при сохранении страниц
