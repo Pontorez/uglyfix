@@ -20,7 +20,7 @@
             ]
         },
         {
-            "matches": ["http://*.newsru.com/*"],
+            "matches": ["*://*.newsru.com/*"],
             "css": [
                 "css/newsru.com.css"
             ],
@@ -173,6 +173,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jan 12, 2017)",
-    "version": "2.64"
+    "description": "Fixes for some ugly sites (Jan 13, 2017)",
+    "version": "2.65"
 }

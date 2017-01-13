@@ -35,7 +35,7 @@ function checkNewMessages() {
             chrome.runtime.sendMessage(chrome.runtime.id, result, function (response) {
             });
         } catch (e) {
-            console.log('FYI: Something wrong with chrome.runtime.sendMessage. Need to reload the page');
+            // Something wrong with chrome.runtime.sendMessage. Need to reload the page
             if (window.location.href == "https://mail.protonmail.com/inbox") {
                 console.log('FYI: Reloading');
                 window.location.reload();
