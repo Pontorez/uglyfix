@@ -21,6 +21,8 @@ window.onmousedown = function () {
 };
 
 $("#reader_pane").bind("DOMSubtreeModified", function() {
-    $('.article_title_link:contains("at Coolblue")').css('text-decoration', 'line-through');
-    $('.article_title_link:contains("trivago")').css('text-decoration', 'line-through');
+    $(  '.article_title_link:contains("at Coolblue"),' +
+        '.article_title_link:contains("at Westwing Home & Living"),' +
+        '.article_title_link:contains("at AUTO1"),' +
+        '.article_title_link:contains("trivago")').css('text-decoration', 'line-through');
 });

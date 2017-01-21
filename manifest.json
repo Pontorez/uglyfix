@@ -80,18 +80,13 @@
             "css": ["css/habrahabr_geektimes.css"]
         },
         {
-            "matches": ["http://sextalk.ru/*"],
-            "js": [
-                "js/https.js"
-            ]
-        },
-        {
             "matches": [
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.intimcity.nl/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
                 "http://www.newsru.com/*",
+                "http://rutracker.org/*",
                 "http://sextalk.ru/*",
                 "http://stat.netbynet.ru/*",
                 "http://thepiratebay.se/*",
@@ -173,6 +168,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jan 13, 2017)",
-    "version": "2.65"
+    "description": "Fixes for some ugly sites (Jan 21, 2017)",
+    "version": "2.66"
 }
