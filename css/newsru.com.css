@@ -13,3 +13,7 @@ body {
     /* hide retweet, facebook, vk, etc buttons */
     display: none !important;
 }
+
+.maintext {
+    text-align: left !important;
+}

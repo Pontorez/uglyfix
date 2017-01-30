@@ -82,6 +82,7 @@
         {
             "matches": [
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
+                "http://www.gibdd.ru/*",
                 "http://www.intimcity.nl/*",
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
@@ -136,8 +137,8 @@
             "run_at": "document_end"
         },
         {
-            "matches": ["https://www.4proxy.de/*"],
-            "js": ["js/4proxy.de.js"],
+            "matches": ["https://www.4proxy.us/*"],
+            "js": ["js/4proxy.us.js"],
             "run_at": "document_start"
         },
         {
@@ -168,6 +169,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jan 21, 2017)",
-    "version": "2.66"
+    "description": "Fixes for some ugly sites (Jan 30, 2017)",
+    "version": "2.67"
 }
