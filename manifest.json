@@ -72,7 +72,7 @@
             "css": ["css/hh.ru.css"]
         },
         {
-            "matches": ["http://career.ru/*"],
+            "matches": ["https://career.ru/*"],
             "css": ["css/career.ru.css"]
         },
         {
@@ -81,6 +81,7 @@
         },
         {
             "matches": [
+                "http://archive.org/*",
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.gibdd.ru/*",
                 "http://www.intimcity.nl/*",
@@ -90,6 +91,7 @@
                 "http://rutracker.org/*",
                 "http://sextalk.ru/*",
                 "http://stat.netbynet.ru/*",
+                "http://stackoverflow.com/*",
                 "http://thepiratebay.se/*",
                 "http://translate.google.com/*",
                 "http://vk.com/*",
@@ -148,6 +150,13 @@
                 "js/protonmail.js"
             ],
             "run_at": "document_start"
+        },
+        {
+            "matches": ["https://www.youtube.com/watch?v=*"],
+            "js": [
+                "js/youtube.js"
+            ],
+            "run_at": "document_start"
         }
     ],
     "background": {
@@ -169,6 +178,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jan 30, 2017)",
-    "version": "2.67"
+    "description": "Fixes for some ugly sites (Feb 3, 2017)",
+    "version": "2.68"
 }

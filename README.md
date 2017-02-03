@@ -23,14 +23,11 @@
 * Скрывать баннеры справа
 * Switch photos using C+Left/C+Right keyboard shortcuts
 
-#### http://hh.ru/
+#### https://hh.ru/ , https://career.ru/
 * Hide banners at the top and right-hand area
 
-#### http://career.ru/
-* Hide banners at the right-hand area
-
-#### http://antizapret.info/
-* Ставить гиперссылки на сайты и открывать их через 4proxy.us
+#### https://antizapret.info/
+* Open hyperlinks via 4proxy.us
 
 #### https://inoreader.com/
 * Возможность кликнуть на скроллбар, когда курсор прижат к правой части экрана
