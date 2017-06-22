@@ -82,6 +82,7 @@
         {
             "matches": [
                 "http://archive.org/*",
+                "http://*.dreamwidth.org/*",
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.gibdd.ru/*",
                 "http://www.intimcity.nl/*",
@@ -179,6 +180,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Mar 4, 2017)",
-    "version": "2.70"
+    "description": "Fixes for some ugly sites (Jun 22, 2017)",
+    "version": "2.71"
 }
