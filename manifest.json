@@ -97,6 +97,7 @@
                 "http://thepiratebay.se/*",
                 "http://translate.google.com/*",
                 "http://vk.com/*",
+                "http://web.archive.org/*",
                 "http://www.urbandictionary.com/*",
                 "http://www.youtube.com/*",
                 "http://*.wikipedia.org/*"
@@ -180,6 +181,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jun 22, 2017)",
-    "version": "2.71"
+    "description": "Fixes for some ugly sites (Jun 25, 2017)",
+    "version": "2.72"
 }
