@@ -32,6 +32,13 @@ if (typeof chrome !== 'undefined') {
 }
 
 
-chrome.webRequest.onBeforeRequest.addListener(function () {
-    return {cancel: true};
-}, {urls: ["*://mc.yandex.ru/*"]}, ["blocking"]);
+chrome.webRequest.onBeforeRequest.addListener(
+    function () {
+        return {cancel: true};
+    }, {urls: [
+        "*://mc.yandex.ru/*",
+        "*://counter.yadro.ru/*",
+        "*://kraken.rambler.ru/*",
+        "*://*.mail.ru/counter*"
+    ]}, ["blocking"]
+);
