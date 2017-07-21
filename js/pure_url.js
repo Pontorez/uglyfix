@@ -39,6 +39,8 @@ chrome.webRequest.onBeforeRequest.addListener(
         "*://mc.yandex.ru/*",
         "*://counter.yadro.ru/*",
         "*://kraken.rambler.ru/*",
+        "*://bs.yandex.ru/*",
+        "*://an.yandex.ru/*",
         "*://*.mail.ru/counter*"
     ]}, ["blocking"]
 );
