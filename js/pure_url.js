@@ -36,11 +36,13 @@ chrome.webRequest.onBeforeRequest.addListener(
     function () {
         return {cancel: true};
     }, {urls: [
-        "*://mc.yandex.ru/*",
+        "*://an.yandex.ru/*",
+        "*://bs.yandex.ru/*",
         "*://counter.yadro.ru/*",
         "*://kraken.rambler.ru/*",
-        "*://bs.yandex.ru/*",
-        "*://an.yandex.ru/*",
+        "*://mc.yandex.ru/*",
+        "*://sync.rambler.ru/*",
+        "*://*.tns-counter.ru/*",
         "*://*.mail.ru/counter*"
     ]}, ["blocking"]
 );

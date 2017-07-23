@@ -1,31 +1,42 @@
 "use strict";
 
 $(function () {
+
+    function highlightBadLinks() {
+        $('#conversation-view').find('a[href*="company4339839"]').attr('title', 'Remote').css('background-color', '#989898');
+    }
+
     window.idleCount = 0;
     setInterval('checkNewMessages()', 60000);
 
     window.onkeydown = window.onclick = function () {
         window.idleCount = 0;
+
+        highlightBadLinks();
+        setTimeout(function () {
+            highlightBadLinks();
+        }, 2000);
+
     };
 
 });
 
 function checkNewMessages() {
     window.idleCount++;
-    if (window.location.href != "https://mail.protonmail.com/inbox" && $('.composer').length == 0) {
+    if (window.location.href !== "https://mail.protonmail.com/inbox" && $('.composer').length === 0) {
         if (window.idleCount > 2) {
             window.location = "/inbox";
         } else {
             return;
         }
     }
-    var unreadMessages = $('div.conversation:not(.read)');
-    var result = [];
+    let unreadMessages = $('div.conversation:not(.read)');
+    let result = [];
     $.each(unreadMessages, function (i, message) {
-        var time = $(message).find('time.time').text();
-        if (time.indexOf(new Date().getFullYear()) == -1) {
-            var sender = $(message).find('.senders-name').text();
-            var subject = $(message).find('h4').text().trim().replace(/\n/g, '').replace(/[ ]+/g, ' ');
+        let time = $(message).find('time.time').text();
+        if (time.indexOf(new Date().getFullYear()) === -1) {
+            let sender = $(message).find('.senders-name').text();
+            let subject = $(message).find('h4').text().trim().replace(/\n/g, '').replace(/[ ]+/g, ' ');
             result.push({sender: sender, subject: subject, time: time});
         }
     });
@@ -36,7 +47,7 @@ function checkNewMessages() {
             });
         } catch (e) {
             // Something wrong with chrome.runtime.sendMessage. Need to reload the page
-            if (window.location.href == "https://mail.protonmail.com/inbox") {
+            if (window.location.href === "https://mail.protonmail.com/inbox") {
                 window.location.reload();
             }
         }
