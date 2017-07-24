@@ -3,9 +3,12 @@
 $(function () {
 
     function highlightBadLinks() {
-        $('#conversation-view').find('a[href*="company4339839"]').attr('title', 'Remote').css('background-color', '#989898');
+        let conversationView = $('#conversation-view');
+        conversationView.find('a[href*="company4339839"]').attr('title', 'Remote').css('background-color', '#989898');
+        conversationView.find('a[href*="company4237098"]').attr('title', 'Remote').css('background-color', '#989898');
+        conversationView.find('a[href*="company5354327"]').attr('title', 'Remote').css('background-color', '#989898');
+        conversationView.find('a:contains("(удаленно)")').attr('title', 'Remote').css('background-color', '#989898');
     }
-
     window.idleCount = 0;
     setInterval('checkNewMessages()', 60000);
 
