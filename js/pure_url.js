@@ -39,6 +39,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         "*://an.yandex.ru/*",
         "*://bs.yandex.ru/*",
         "*://counter.yadro.ru/*",
+        "*://www.google.com/afs/ads?q=*", // skyscanner.ru: sidebar banner
         "*://kraken.rambler.ru/*",
         "*://mc.yandex.ru/*",
         "*://sync.rambler.ru/*",
