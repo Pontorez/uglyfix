@@ -42,8 +42,11 @@ chrome.webRequest.onBeforeRequest.addListener(
         "*://www.google.com/afs/ads?q=*", // skyscanner.ru: sidebar banner
         "*://kraken.rambler.ru/*",
         "*://mc.yandex.ru/*",
+        "*://widget.engageya.com/*",      // button at https://www.newsru.com/world/30jul2017/bombers.html
         "*://sync.rambler.ru/*",
         "*://*.tns-counter.ru/*",
+        "*://informer.yandex.ru/*",
+        "*://www.google-analytics.com/*",
         "*://*.mail.ru/counter*"
     ]}, ["blocking"]
 );
