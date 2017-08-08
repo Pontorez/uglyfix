@@ -38,6 +38,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     }, {urls: [
         "*://an.yandex.ru/*",
         "*://bs.yandex.ru/*",
+        "*://cas.criteo.com/*",           // iframe ads
         "*://counter.yadro.ru/*",
         "*://www.google.com/afs/ads?q=*", // skyscanner.ru: sidebar banner
         "*://kraken.rambler.ru/*",
