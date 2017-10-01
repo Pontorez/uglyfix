@@ -9,6 +9,7 @@ $(function () {
         conversationView.find('a[href*="company5354327"]').attr('title', 'Remote').css('background-color', '#989898');
         conversationView.find('a[href*="company3073752"]').attr('title', 'Remote').css('background-color', '#989898');
         conversationView.find('a[href*="company5350552"]').attr('title', 'Remote').css('background-color', '#989898');
+        conversationView.find('a[href*="vacancy6819023"]').attr('title', 'Rostov-on-Don').css('background-color', '#989898');
         conversationView.find('a[href*="company5386360"]').attr('title', 'Belgorod').css('background-color', '#989898');
         conversationView.find('a:contains("(удаленно)")').attr('title', 'Remote').css('background-color', '#989898');
     }

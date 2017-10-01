@@ -38,16 +38,17 @@ chrome.webRequest.onBeforeRequest.addListener(
     }, {urls: [
         "*://an.yandex.ru/*",
         "*://bs.yandex.ru/*",
-        "*://cas.criteo.com/*",           // iframe ads
+        "*://cas.criteo.com/*",               // iframe ads
         "*://counter.yadro.ru/*",
-        "*://www.google.com/afs/ads?q=*", // skyscanner.ru: sidebar banner
+        "*://www.google.com/afs/ads?q=*",     // skyscanner.ru: sidebar banner
         "*://kraken.rambler.ru/*",
         "*://mc.yandex.ru/*",
-        "*://widget.engageya.com/*",      // button at https://www.newsru.com/world/30jul2017/bombers.html
+        "*://widget.engageya.com/*",          // button at https://www.newsru.com/world/30jul2017/bombers.html
         "*://sync.rambler.ru/*",
         "*://*.tns-counter.ru/*",
         "*://informer.yandex.ru/*",
         "*://www.google-analytics.com/*",
+        "*://www.kinopoisk.ru/*callback=Ya*", // Yandex direct
         "*://*.mail.ru/counter*"
     ]}, ["blocking"]
 );
