@@ -10,6 +10,13 @@
             "js": ["js/mail.google.com.js"]
         },
         {
+            "matches": ["http://pro-shar.com/*"],
+            "js": [
+                "js/jquery-3.2.1.min.js",
+                "js/pro-shar.com.js"
+            ]
+        },
+        {
             "matches": ["https://www.youtube.com/*"],
             "css": ["css/youtube.css"]
         },
@@ -25,7 +32,7 @@
                 "css/newsru.com.css"
             ],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/newsru.com.js"
             ]
         },
@@ -39,7 +46,7 @@
             "matches": ["https://*.wikipedia.org/w*"],
             "css": ["css/wikipedia.css"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/wikipedia.js"
             ]
         },
@@ -47,7 +54,7 @@
             "matches": ["https://antizapret.info/*"],
             "css": ["css/antizapret.info.css"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/antizapret.info.js"
             ]
         },
@@ -57,7 +64,7 @@
                 "css/inoreader.css"
             ],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/inoreader.js"
             ]
         },
@@ -109,35 +116,35 @@
         {
             "matches": ["http://www.gibdd.ru/check/fines/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/gibdd.ru.js"
             ]
         },
         {
             "matches": ["https://www.intimcity.nl/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/intimcity.nl.js"
             ]
         },
         {
             "matches": ["https://lj.rossia.org/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/lj.rossia.org.js"
             ]
         },
         {
             "matches": ["https://*.pl/owa/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/outlook.js"
             ]
         },
         {
             "matches": ["https://login.skype.com/login?*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/skype.com.js"
             ],
             "run_at": "document_end"
@@ -150,7 +157,7 @@
         {
             "matches": ["https://mail.protonmail.com/*"],
             "js": [
-                "js/jquery-3.1.1.min.js",
+                "js/jquery-3.2.1.min.js",
                 "js/protonmail.js"
             ],
             "run_at": "document_start"
@@ -165,7 +172,7 @@
     ],
     "background": {
         "scripts": [
-            "js/jquery-3.1.1.min.js",
+            "js/jquery-3.2.1.min.js",
             "js/pure_url.js",
             "js/background.js"
         ]
@@ -182,6 +189,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 12, 2017)",
-    "version": "2.82"
+    "description": "Fixes for some ugly sites (Oct 18, 2017)",
+    "version": "2.83"
 }
