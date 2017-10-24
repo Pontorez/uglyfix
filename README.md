@@ -59,10 +59,6 @@
 * Profile page: change background color if some services are not provided
 * Highlight new ("Новая анкета!") profiles
 
-#### https://192.168.35.31/owa/
-* Check for new messages every minute
-* C+Left/C+Right no navigate to prev/next message
-
 #### https://lj.rossia.org/
 * C+Left/C+Right shortcuts to navigate to prev/next 20 entries
 

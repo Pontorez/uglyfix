@@ -92,7 +92,6 @@
                 "http://*.dreamwidth.org/*",
                 "http://echo.msk.ru/*",
                 "http://inoreader.com/*", "http://www.inoreader.com/*",
-                "http://www.gibdd.ru/*",
                 "http://www.intimcity.nl/*",
                 "http://www.kavkazcenter.com/*",
                 "http://lj.rossia.org/*",
@@ -135,21 +134,6 @@
             ]
         },
         {
-            "matches": ["https://*.pl/owa/*"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/outlook.js"
-            ]
-        },
-        {
-            "matches": ["https://login.skype.com/login?*"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/skype.com.js"
-            ],
-            "run_at": "document_end"
-        },
-        {
             "matches": ["https://www.4proxy.us/*"],
             "js": ["js/4proxy.us.js"],
             "run_at": "document_start"
@@ -190,5 +174,5 @@
         "48": "img/icon48.png"
     },
     "description": "Fixes for some ugly sites (Oct 24, 2017)",
-    "version": "2.84"
+    "version": "2.85"
 }

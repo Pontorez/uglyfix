@@ -14,15 +14,19 @@ window.onkeydown = function (e) {
         // click "Fill the form" button:
         $('.open-form-btn.btn.btn-primary.btn-lg').trigger('click');
 
-        $('[name="CompanyPosition"]').val('Старший помощник младшего дворника');
-        $('[name="CompanyContactName"]').val('Сиддхартха');
-        $('[name="CompanyContactSurname"]').val('Гаутама');
+        $('[name="CompanyPosition"]').val('Senior assistant to a janitor');
+        $('[name="CompanyContactName"]').val('Siddhartha');
+        $('[name="CompanyContactSurname"]').val('Gautama');
         $('[name="CompanyTel"]').val('+74991111111');
         $('[name="CompanyEmail"]').val('example@example.com');
         $('[name="CompanyWeb"]').val('https://pontorez.com/');
 
+        $('[name="CompanyShippingAddress"]').val('100 Riverside Blvd'); // en
+        $('[name="CompanyCity2"]').val('10069, New York'); // en
+        $('[name="CompanyHours"]').val('09:00-18:00'); // en
+
         $('[name="party"]').val('ООО «РК»');
-        $('[name="CompanyName"]').val(date + ' — ООО «Рога и Копыта»');
+        $('[name="CompanyName"]').val('…' + date + ' Legal Business Name…');
         $('[name="CompanyAddress"]').val('ул. Юридическая, д. 13');
         $('[name="address"]').val('ул. Fuckтическая, д. 42');
         $('[name="CompanyINN"]').val('9106009088');
