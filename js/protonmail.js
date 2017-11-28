@@ -4,16 +4,30 @@ $(function () {
 
     function highlightBadLinks() {
         let conversationView = $('#conversation-view');
-        conversationView.find('a[href*="company4339839"]').attr('title', 'Remote').css('background-color', '#989898');
-        conversationView.find('a[href*="company4237098"]').attr('title', 'Remote').css('background-color', '#989898');
-        conversationView.find('a[href*="company5354327"]').attr('title', 'Remote').css('background-color', '#989898');
-        conversationView.find('a[href*="company3073752"]').attr('title', 'Remote').css('background-color', '#989898');
-        conversationView.find('a[href*="company5350552"]').attr('title', 'Remote').css('background-color', '#989898');
-        conversationView.find('a[href*="vacancy6819023"]').attr('title', 'Rostov-on-Don').css('background-color', '#989898');
-        conversationView.find('a[href*="company5386360"]').attr('title', 'Belgorod').css('background-color', '#989898');
-        conversationView.find('a[href*="vacancy6929983"]').attr('title', 'BY').css('background-color', '#989898');
-        conversationView.find('a:contains("(удаленно)")').attr('title', 'Remote').css('background-color', '#989898');
+        conversationView.find('a[href*="company5350552"],' +
+            'a[href*="company3474532"],' +
+            'a[href*="company3537794"],' +
+            'a[href*="company5354327"],' +
+            'a[href*="company4339839"],' +
+            'a[href*="company4237098"],' +
+            'a[href*="company3073752"],' +
+            'a:contains("remote)"),' +
+            'a[href*="company6180443"],' +
+            'a:contains("удаленно")').attr('title', 'Remote').addClass('x_remote');
+
+        conversationView.find('a[href*="vacancy6819023"]').attr('title', 'Rostov-on-Don').addClass('x_eu');
+        conversationView.find('a[href*="company5386360"]').attr('title', 'Belgorod').addClass('x_eu');
+        conversationView.find('a[href*="company6360922"]').attr('title', 'Tallinn').addClass('x_eu');
+        conversationView.find('a[href*="company5131369"]').attr('title', 'DE; agency').addClass('x_eu');
+        conversationView.find('a[href*="company788/"]'   ).attr('title', 'DE').addClass('x_eu');
+        conversationView.find('a[href*="company5057343"]').attr('title', 'CZ; agency').addClass('x_eu');
+        conversationView.find('a[href*="company6334949"]').attr('title', 'PL').addClass('x_eu');
+        conversationView.find('a[href*="company3202014"]').attr('title', 'EU').addClass('x_eu');
+        conversationView.find('a[href*="vacancy6929983"]').attr('title', 'BY').addClass('x_eu');
+        conversationView.find('a[href*="company6308161"]').attr('title', 'PL').addClass('x_eu');
+        conversationView.find('a[href*="company2459176"]').attr('title', 'UA,EE').addClass('x_eu');
     }
+
     window.idleCount = 0;
     setInterval('checkNewMessages()', 60000);
 

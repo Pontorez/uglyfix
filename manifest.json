@@ -140,6 +140,7 @@
         },
         {
             "matches": ["https://mail.protonmail.com/*"],
+            "css": ["css/protonmail.css"],
             "js": [
                 "js/jquery-3.2.1.min.js",
                 "js/protonmail.js"
@@ -173,6 +174,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 24, 2017)",
-    "version": "2.85"
+    "description": "Fixes for some ugly sites (Nov 28, 2017)",
+    "version": "2.86"
 }
