@@ -15,6 +15,9 @@ $(function () {
             'a[href*="company6180443"],' +
             'a:contains("удаленно")').attr('title', 'Remote').addClass('x_remote');
 
+        conversationView.find('a[href*="company6138138"]').attr('title', 'Low salary').addClass('x_remote');
+        conversationView.find('a[href*="company4174864"]').attr('title', 'Magento').addClass('x_remote');
+
         conversationView.find('a[href*="vacancy6819023"]').attr('title', 'Rostov-on-Don').addClass('x_eu');
         conversationView.find('a[href*="company5386360"]').attr('title', 'Belgorod').addClass('x_eu');
         conversationView.find('a[href*="company6360922"]').attr('title', 'Tallinn').addClass('x_eu');
