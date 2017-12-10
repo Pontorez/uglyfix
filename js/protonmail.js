@@ -11,6 +11,10 @@ $(function () {
             'a[href*="company4339839"],' +
             'a[href*="company4237098"],' +
             'a[href*="company3073752"],' +
+            'a[href*="company6307854"],' +
+            'a[href*="company6374455"],' +
+            'a[href*="company6070588"],' +
+            'a[href*="company2335828"],' +
             'a:contains("remote)"),' +
             'a[href*="company6180443"],' +
             'a:contains("удаленно")').attr('title', 'Remote').addClass('x_remote');
