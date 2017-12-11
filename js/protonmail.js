@@ -13,6 +13,7 @@ $(function () {
             'a[href*="company3073752"],' +
             'a[href*="company6307854"],' +
             'a[href*="company6374455"],' +
+            'a[href*="company6345450"],' +
             'a[href*="company6070588"],' +
             'a[href*="company2335828"],' +
             'a:contains("remote)"),' +
@@ -21,6 +22,9 @@ $(function () {
 
         conversationView.find('a[href*="company6138138"]').attr('title', 'Low salary').addClass('x_remote');
         conversationView.find('a[href*="company4174864"]').attr('title', 'Magento').addClass('x_remote');
+
+        conversationView.find('a[href*="company6415957"]').attr('title', 'Malta').addClass('x_eu');
+        conversationView.find('a[href*="company5344227"]').attr('title', 'Lublin').addClass('x_eu');
 
         conversationView.find('a[href*="company870784"]').attr('title', 'Boston').addClass('x_eu');
         conversationView.find('a[href*="vacancy6819023"]').attr('title', 'Rostov-on-Don').addClass('x_eu');
