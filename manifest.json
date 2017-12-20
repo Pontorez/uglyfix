@@ -97,6 +97,7 @@
                 "http://lj.rossia.org/*",
                 "http://lurkmore.to/*",
                 "http://www.newsru.com/*",
+                "http://*.livejournal.com/*",
                 "http://rutracker.org/*",
                 "http://sextalk.ru/*",
                 "http://stat.netbynet.ru/*",
@@ -174,6 +175,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 11, 2017)",
-    "version": "2.90"
+    "description": "Fixes for some ugly sites (Dec 20, 2017)",
+    "version": "2.91"
 }
