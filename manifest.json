@@ -144,14 +144,8 @@
             "css": ["css/protonmail.css"],
             "js": [
                 "js/jquery-3.2.1.min.js",
+                "js/mark.es6.min.js",
                 "js/protonmail.js"
-            ],
-            "run_at": "document_start"
-        },
-        {
-            "matches": ["https://www.youtube.com/watch?v=*"],
-            "js": [
-                "js/youtube.js"
             ],
             "run_at": "document_start"
         }
@@ -175,6 +169,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Dec 20, 2017)",
-    "version": "2.91"
+    "description": "Fixes for some ugly sites (Dec 21, 2017)",
+    "version": "2.92"
 }

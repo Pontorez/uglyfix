@@ -3,6 +3,11 @@
 $(function () {
 
     function highlightBadLinks() {
+
+        let markInstance = new Mark(document.querySelector("#conversation-view"));
+        markInstance.mark("Stealth Talent", {separateWordSearch: false});
+        markInstance.mark("Saksoft", {separateWordSearch: false});
+
         let conversationView = $('#conversation-view');
         conversationView.find('a[href*="company5350552"],' +
             'a[href*="company3474532"],' +
@@ -43,15 +48,22 @@ $(function () {
     window.idleCount = 0;
     setInterval('checkNewMessages()', 60000);
 
-    window.onkeydown = window.onclick = function () {
+    function recall() {
         window.idleCount = 0;
 
         highlightBadLinks();
         setTimeout(function () {
             highlightBadLinks();
         }, 2000);
+    }
 
-    };
+    window.addEventListener("keydown", function () {
+        recall();
+    });
+
+    window.addEventListener("click", function () {
+        recall();
+    });
 
 });
 
