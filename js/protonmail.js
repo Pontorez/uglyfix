@@ -7,6 +7,10 @@ $(function () {
         let markInstance = new Mark(document.querySelector("#conversation-view"));
         markInstance.mark("Stealth Talent", {separateWordSearch: false});
         markInstance.mark("Saksoft", {separateWordSearch: false});
+        markInstance.mark("Technology Resource Management", {separateWordSearch: false});
+        markInstance.mark("Strategic Employment Partners", {separateWordSearch: false});
+        markInstance.mark("Robert Half Technology", {separateWordSearch: false});
+        markInstance.mark("Top Prospect Group", {separateWordSearch: false});
 
         let conversationView = $('#conversation-view');
         conversationView.find('a[href*="company5350552"],' +
