@@ -50,7 +50,7 @@ $(function () {
     }
 
     window.idleCount = 0;
-    setInterval('checkNewMessages()', 60000);
+    setInterval(checkNewMessages, 60000);
 
     function recall() {
         window.idleCount = 0;
