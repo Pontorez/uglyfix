@@ -10,13 +10,6 @@
             "js": ["js/mail.google.com.js"]
         },
         {
-            "matches": ["http://pro-shar.com/*"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/pro-shar.com.js"
-            ]
-        },
-        {
             "matches": ["https://www.youtube.com/*"],
             "css": ["css/youtube.css"]
         },
@@ -169,6 +162,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Sep 15, 2018)",
-    "version": "2.94"
+    "description": "Fixes for some ugly sites (Oct 21, 2018)",
+    "version": "2.95"
 }
