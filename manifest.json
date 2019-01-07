@@ -62,12 +62,6 @@
             ]
         },
         {
-            "matches": ["http://dooma.ru/images/*"],
-            "js": [
-                "js/dooma.ru.js"
-            ]
-        },
-        {
             "matches": ["https://*.hh.ru/*", "http://*.hh.ua/*", "http://*.hh.kz/*", "http://jobs.tut.by/*", "http://jobs.day.az/*"],
             "css": ["css/hh.ru.css"]
         },
@@ -105,13 +99,6 @@
             ],
             "js": ["js/https.js"],
             "run_at": "document_start"
-        },
-        {
-            "matches": ["http://www.gibdd.ru/check/fines/*"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/gibdd.ru.js"
-            ]
         },
         {
             "matches": ["https://www.intimcity.nl/*"],
@@ -162,6 +149,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 21, 2018)",
-    "version": "2.95"
+    "description": "Fixes for some ugly sites (Jan 7, 2019)",
+    "version": "2.96"
 }
