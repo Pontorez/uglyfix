@@ -52,16 +52,6 @@
             ]
         },
         {
-            "matches": ["https://inoreader.com/*", "https://www.inoreader.com/*"],
-            "css": [
-                "css/inoreader.css"
-            ],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/inoreader.js"
-            ]
-        },
-        {
             "matches": ["https://*.hh.ru/*", "http://*.hh.ua/*", "http://*.hh.kz/*", "http://jobs.tut.by/*", "http://jobs.day.az/*"],
             "css": ["css/hh.ru.css"]
         },
@@ -78,7 +68,6 @@
                 "http://archive.org/*",
                 "http://*.dreamwidth.org/*",
                 "http://echo.msk.ru/*",
-                "http://inoreader.com/*", "http://www.inoreader.com/*",
                 "http://www.intimcity.nl/*",
                 "http://www.kavkazcenter.com/*",
                 "http://lj.rossia.org/*",
