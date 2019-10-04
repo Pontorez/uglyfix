@@ -9,3 +9,9 @@
 .img-box-banner-little {
     display: none !important;
 }
+
+.x-sdano,
+.x-inappropriate {
+    /* part of room, only woman, Jamaica, Manhattan, Bronx, Staten Island */
+    display: none !important;
+}
