@@ -26,6 +26,7 @@ $(function () {
         '/sdaetsya_mesto_dlya_1_zhenshchiny_7513700/',
         '/sdaetsya_komnata_7513179/',
         '/sdaetsya_komnata_7513177/',
+        '/sdaetsya_komnata_7514647/',
         '/sdaetsya_komnata_7513175/',
         '/sdaetsya_komnata_7517665/',
         '/sdaetsya_komnata_7517664/',
@@ -78,6 +79,23 @@ $(function () {
         '/sdaetsya_komnata_7514655/',
         '/sdaetsya_komnata_7514659/',
         '/sdaetsya_komnata_7514671/',
+        '/sdaetsya_komnata_7513168/',
+        '/sdaetsya_dom_7514384/',
+        '/sdaetsya_komnata_7513184/',
+        '/sdaetsya_mesto__7513155/',
+        '/sdayu_komnatu_dlya_studentki_7512988/',
+        '/kings_hwy_ocean_ave_7512978/',
+        '/sdaetsya_komnata_dlya_devushki_7517698/',
+        '/razdelyu_rent_komnaty_7075004/',
+        '/sdayetsya_komnata_7517283/',
+        '/zdaetsya_bolshaya_mebelerovannaya_komnata__7517651/',
+        '/sdayu_komnatu_7512520/',
+        '/koyko_mesto_7512513/',
+        '/sdam_komnatu_7512168/',
+        '/cdaetsya_bolshaya_komnata__7517798/',
+        '/sdaetsya_komnata_7513181/',
+        '/sdaetsya_komnata_7513180/',
+        '/bensonhurst_2_500_7514369/',
         '/sdaetsya_komnata_7516059/',
         '/sdaetsya_komnata_7516057/',
         '/sdaetsya_mesto_v_komnate_7515185/',
@@ -93,5 +111,10 @@ $(function () {
     let contentBlock = $('ul.listinf');
     contentBlock.find(querySdano).closest('li').addClass('x-sdano');
     contentBlock.find(queryInappropriate).closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("Bronx, NY")').closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("NY 10028")').closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("NY 11366")').closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("NY 11411")').closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("NY 10019")').closest('li').addClass('x-inappropriate');
 
 });
