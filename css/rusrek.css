@@ -1,9 +1,7 @@
 .banner-add,
 .head-banner,
 .seo-txt.big,
-.fix_box,
 .foot-bar,
-.searchblock.searchblock_main,
 #eXTReMe-Free-rusrek,
 .addthis-smartlayers.addthis-smartlayers-desktop,
 .img-box-banner-little {
@@ -14,4 +12,11 @@
 .x-inappropriate {
     /* part of room, only woman, Jamaica, Manhattan, Bronx, Staten Island */
     display: none !important;
+}
+
+/* right-hand area annoying banners */
+#bx_2855226822_7508161,
+#bx_2855226822_456065,
+#bx_2855226822_456066 {
+    display: none;
 }
