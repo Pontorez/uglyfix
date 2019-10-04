@@ -8,6 +8,7 @@ $(function () {
         '/sdam_nebolshuyu_komnatu_7511006/',
         '/%D1%81%D0%B4%D0%B0%D0%B5%D1%82%D1%81%D1%8F_%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0-o3640322-ru/',
         '/sdayu_bolshuyu_komnatu_7515584/',
+        '/sdaetsya_komnata_500_7516006/',
         '/sdaetsya_komnata_7515520/',
         '/sdaetsya_svetlaya_i_uyutnaya_komnata_posle_remonta_7516380/',
         '/sdayetsya_3kh_komnatnaya_kvartira__7516066_5d8914ce48a49/',
@@ -28,6 +29,8 @@ $(function () {
         '/sdaetsya_komnata_7513177/',
         '/sdaetsya_komnata_7514647/',
         '/sdaetsya_komnata_7513175/',
+        '/sdayetsya_komnata_dlya_zhenshchin__7516013/',
+        '/sdayu_komnatu_7515980/',
         '/sdaetsya_komnata_7517665/',
         '/sdaetsya_komnata_7517664/',
         '/sdam_komnatu_7517315/',
@@ -122,6 +125,29 @@ $(function () {
         '/sdaetsya_mesto_v_komnate_7515185/',
         '/sdaetsya_mesto_dlya_muzhchiny_7515885/',
         '/sdaetsya_komnata_7516058/',
+        '/snimu_komnatu_s_otdelnym_sanuzlom_7516908/',
+        '/sdaetsya_komnata_ne_agenstvo_7515708/',
+        '/bensonhurst_close_to_bay_parkway86th_strd_trainbusesb1b6b82-o3086460-ru/',
+        '/sdaetsya_bolshaya_teplaya_i_solnechnaya_meblirovannaya_komnata__7077994/',
+        '/cdaetsya_komnata__7515692/',
+        '/sdaetsya_meblirovannaya_komnata_7515687/',
+        '/sdayu_meblirovannuyu_komnatu__7515449/',
+        '/sdam_komnatu_7515444/',
+        '/bensonhurst_bay_parkway_d_line_7085449/',
+        '/sdam_komnatu__7515418/',
+        '/sdayetsya_komnata_7514724/',
+        '/sdayu_komnatu__7516887/',
+        '/khozyain_s_1_oktyabrya_sdaet_svetluyu_komnatu_v_steyten_aylende_nyu_york_bez_proverki_kreditnoy_isto_7515913/',
+        '/sdayetsya_komnata_7516794/',
+        '/ogromnaya_komnata_s_mebelyu_vse_vklyucheno_900__7516442/',
+        '/brayton_sdam_mesto_v_komnate_zhenshchine_7516445/',
+        '/kimnata_dlya_divchini_7516454/',
+        '/sdaetsya_komnata_7516383/',
+        '/komnata_dlya_rabotayushchego_muzhchiny_parnya_7516117/',
+        '/sdayu_mesto_v_komnate_dlya_zhenshchin__7516096/',
+        '/arenda_7516011/',
+        '/sdayetsya_studiya_v_rayone_shipskhedbey__7515993/',
+        '/besplatnoe_prozhivanie_v_komnate_na_braytone_dlya_zhenshchiny_60_70_let_u_7516357/',
         '/sdaetsya_komnata_7516063/',
         '/sdaetsya_nebolshaya_komnata_7517323/',
         '/sdaetsya_komnata_7517663/'
@@ -137,5 +163,6 @@ $(function () {
     contentBlock.find('.bottmbox-left > span > strong:contains("NY 11366")').closest('li').addClass('x-inappropriate');
     contentBlock.find('.bottmbox-left > span > strong:contains("NY 11411")').closest('li').addClass('x-inappropriate');
     contentBlock.find('.bottmbox-left > span > strong:contains("NY 10019")').closest('li').addClass('x-inappropriate');
+    contentBlock.find('.bottmbox-left > span > strong:contains("Staten Island")').closest('li').addClass('x-inappropriate');
 
 });
