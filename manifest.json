@@ -109,6 +109,10 @@
             "run_at": "document_start"
         },
         {
+            "matches": ["https://rusrek.com/mall/*"],
+            "css": ["css/rusrek.css"]
+        },
+        {
             "matches": ["https://mail.protonmail.com/*"],
             "css": ["css/protonmail.css"],
             "js": [
@@ -138,6 +142,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Jan 24, 2019)",
-    "version": "2.97"
+    "description": "Fixes for some ugly sites (Oct 4, 2019)",
+    "version": "3.0"
 }
