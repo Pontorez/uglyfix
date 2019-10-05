@@ -114,8 +114,7 @@
             "js": [
                 "js/jquery-3.2.1.min.js",
                 "js/rusrek.js"
-            ],
-            "run_at": "document_start"
+            ]
         },
         {
             "matches": ["https://mail.protonmail.com/*"],
