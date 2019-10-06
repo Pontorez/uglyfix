@@ -42,6 +42,7 @@ tmp = [
     '/%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%B2%D1%8B%D0%B1%D0%BE%D1%80_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-o3440167-ru/',
     '/%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-o1436914-ru/',
     '/1_bedrum_kvartira_na_steyten_aylend_7517908/',
+    '/sdaetsya_komnata_dlya_devushki_7517828/',
     '/sdam_komnatu_ili_kvartiru_7515193/', // po telefonu skazali short-term
     '/razdelyu_rent__7516114/', // $850 Ave X
     '/sdam_meblirovannuyu_komnatu__7513296/',
@@ -273,6 +274,17 @@ tmp = [
     '/komnata_dlya_rabotayushchego_muzhchiny_parnya_7516117/',
     '/komnata_devushke_7105948/',
     '/semya_iz_3_chelovek_snimet_1_bdr_7516433/',
+    '/razdelyu_rent__7516114/', // 850, Ave X
+    '/60_pearl_st_apt_3_new_york_ny_7515815/', // Manhattan
+    '/350_e_67th_st_apt_17_new_york_ny_7514768/', // Manhattan
+    '/kings_hiwy_ugol_bedford_ave_7513711/',
+    '/sdam_meblirovannuyu_komnatu_zhenshchine_7517932/',
+    '/sdayetsya_bolshaya_svetlaya_meblirovannaya_studiya_na_braytone_s_vidom_na_okean__7517890/',
+    '/cdaetsya_otdelnaya_komnata_7517869/',
+    '/florida_chudo_ozero_warm_mineral_springs_fl_7517781/',
+    '/sdayu_otdelnuyu_meblirovannuyu_komnata_s_otdelnoy_vannoy_i_tualetom_kondo_molodomu_parnyu_bez_vredny_7517155/', // 850
+    '/mall/sdaetsya_komnata_7514648/',
+    '/sdam_komnatu_ili_kvartiru_7515193/', // Bensonhurst сдают на короткий срок
     '/snimu_studiyu_7515992/',
     '/snimu_studiyu_na_dolgiy_srok__7515646/',
     '/ishchu_meblirovannuyu_komnatu_v_brukline__7515450/',
