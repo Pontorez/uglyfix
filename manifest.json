@@ -146,6 +146,6 @@
     "icons": {
         "48": "img/icon48.png"
     },
-    "description": "Fixes for some ugly sites (Oct 4, 2019)",
-    "version": "3.0"
+    "description": "Look & feel improvements for some sites",
+    "version": "2019.10.06"
 }
