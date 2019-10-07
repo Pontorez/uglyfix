@@ -34,6 +34,8 @@ tmp = [
     '/sdayu_otdelnuyu_komnatu_brayton_7516989/',
     '/bolshaya_komanata_s_private_bathroom_na_1_braytone_v_luxury_bildinge_7515541/',
     '/komnata_v_sigeyte_7516387/',
+    '/%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0_%D0%B2_%D1%80%D0%B5%D0%BD%D1%82-o3642434-ru/', // $860
+    '/%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0_%D0%B2_%D1%80%D0%B5%D0%BD%D1%82-o3636663-ru/', // $860
     '/cdaetsya_komnata_7517984/',
     '/sdaetsya_komnata_dlya_devushki_7517954/',
     '/cdaetsya_bolshaya_komnata__7517983/',
@@ -60,6 +62,7 @@ tmp = [
     '/%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-o1436914-ru/',
     '/1_bedrum_kvartira_na_steyten_aylend_7517908/',
     '/sdaetsya_komnata_dlya_devushki_7517828/',
+    '/snimu_zhilye_na_period_28_marta_13_aprelya_sleduyushchego_goda_7517993/',
     '/sdam_komnatu_ili_kvartiru_7515193/', // po telefonu skazali short-term
     '/razdelyu_rent__7516114/', // $850 Ave X
     '/sdam_meblirovannuyu_komnatu__7513296/',
