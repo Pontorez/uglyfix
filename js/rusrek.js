@@ -150,6 +150,7 @@ function hideInappropriate()
     contentBlock.find(querySdano).closest('li').addClass('x-sdano');
     contentBlock.find(queryInappropriate).closest('li').addClass('x-inappropriate');
 
+    // inconvenient locations:
     let bottmboxSpan = contentBlock.find('.bottmbox-left > span');
     [
         'Bronx',
@@ -175,6 +176,11 @@ function hideInappropriate()
                 $(b).closest('li').addClass('x-inappropriate');
             }
         }
-    })
+    });
+
+    // (917) 716-3768, etc
+    contentBlock.find('a > table > tbody > tr:nth-child(2) > td > p > span').filter(':contains("(718) 996-0022"), :contains("(917) 716-3768")').each(function (_, node) {
+        $(node).closest('li').addClass('x-inappropriate');
+    });
 
 }
