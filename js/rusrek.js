@@ -43,6 +43,7 @@ tmp = [
     encodeURI('/квартиры_в_rent-o1867071-ru/'), // broker
     encodeURI('re_broker'),
     encodeURI('_realty-'),
+    encodeURI('/квартиры_в_рент_бруклин-o104140-ru/'), // broker
     '/sheapsheadbay-o2452025-ru/', // last update 2017
     '/kew_gardens_austin_street-o2731739-ru/', // 2018
     '/sdaetsya_mebelirovannaya_otdelnaya_komnata_sea_gate__7100556/',
@@ -127,6 +128,10 @@ tmp = [
     '/midvud_1_bedrum_v_rent_1630_7532343/',
     '/ocean_ave_ave_x_7532322/',
     '/ocean_ave_voorhies_ave_7529850/',
+    '/sdaetsya_studiya_7089557_5c5cbad19fbea_5d7bf4504fb5f_5d7bf60490ae4/',
+    '/mill_basin-o3641153-ru/', // broker
+    '/no_fee_apartments_by_management_7511823/',
+    '/seagate__7531865/',
     '/sdayu_svetluyu_meblirovannuyu_komnatu__7531979/' // 4woman
 ];
 
