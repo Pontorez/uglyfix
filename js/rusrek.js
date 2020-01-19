@@ -13,6 +13,8 @@ tmp = [
     '_snimet',
     '_zhenshchine',
     'dlya_devushki',
+    'tolko_jenshinam',
+    'kvartira_devushke',
     encodeURI('место_в_комнате_посуточно'),
     encodeURI('сдаeтся_офис'),
     encodeURI('/на_время_отдыха_cдам_-o3653927-ru/'),
@@ -132,7 +134,42 @@ tmp = [
     '/mill_basin-o3641153-ru/', // broker
     '/no_fee_apartments_by_management_7511823/',
     '/seagate__7531865/',
-    '/sdayu_svetluyu_meblirovannuyu_komnatu__7531979/' // 4woman
+    '/mesto_dlya_parnya_shipskhedbey_7532366/',
+    '/sdaetsya_komnata__7530677/',
+    '/sdaetsya__7531879/',
+    '/a_big_room_for_rent_7531878/',
+    '/sdayetsya_meblirovannaya_komnata_7079765/',
+    '/sdaetsya_komnata_pod_klyuch_7531866/',
+    '/sdam_koyko_mesto_7531714/',
+    '/sdam_komnatu__7531711/',
+    '/sdaetsya_komnata_dlya_zhenshchiny_7531689/',
+    '/room_for_rent_in_one_bedroom_7531356/',
+    '/room_for_rent_in_downtown_brooklyn_clinton_hill__7531185/', // 1300
+    '/sdam_komnatu_7530873/',
+    '/sdaetsya_komnata_7530832/', // 4woman
+    '/sdam_dve_otdelnye_bolshie_meblirovannye_komnaty__7528513/', // 4woman
+    '/snimu_',
+    '/sdam_v_arendu_meblirovannuyu_komnatu_7530112/',
+    '/koyko_mesto_dlya_rabotayushchey_zhenshchiny_7529538/',
+    '/ishchu_izolirovannuyu_komnatu',
+    '/sdaetsya_otdelnaya_komnata_7523394/', //4w
+    '/sdaetsya_komnata_dlya_zhenshchiny_7530836/', // 4woman
+    '/metrocard_95_metrokard_proezdnoy_7530126/',
+    '/1_bedroom_with_private_bathroom_7530865/',
+    '/ishchite_otdykh_i_pokoy_na_vykhodnykh_7528623/',
+    '/sdaetsya_2_bdr_kvartira_v_bensonkherste_7531029/',
+    '/sdam_v_arendu_meblirovannuyu_komnatu_7532753/',
+    '/sdayu_svetluyu_meblirovannuyu_komnatu__7531979/', // 4woman
+    '/sdam_komnatu_7535026/', // 4woman
+    '/sdam_komnatu_7534883/', // 4woman
+    '/sdaetsya_bolshaya_1_bdr__7531190/', // parking
+    '/store_front_office_for_rent_7535695/', // office space
+    '/srochno_snimu_komnatu_7535174/', // snimu
+    '/kvartiry_v_rent_7529624/', // RE
+    '/brighton_beach_7535769/', // RE
+    '/bensonhurst_7535768/', // RE
+    '/office_for_rent_ave_u_east_8_str_7535767/', // RE
+    '/kvartiry_kvartiry_kvartiry_zhdut_vas__7517939/' // RE
 ];
 
 let queryInappropriate = 'a[href*="' + tmp.join('"],a[href*="') + '"]';
