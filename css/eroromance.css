@@ -1,0 +1,7 @@
+body,
+.main,
+.left_head,
+.left_head_menu,
+.page > table {
+    background: #000 !important;
+}

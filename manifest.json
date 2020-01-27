@@ -110,11 +110,7 @@
         },
         {
             "matches": ["https://rusrek.com/mall/*"],
-            "css": ["css/rusrek.css"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/rusrek.js"
-            ]
+            "css": ["css/rusrek.css"]
         },
         {
             "matches": ["https://mail.protonmail.com/*"],
@@ -125,6 +121,10 @@
                 "js/protonmail.js"
             ],
             "run_at": "document_start"
+        },
+        {
+            "matches": ["http://eroromance.com/*"],
+            "css": ["css/eroromance.css"]
         }
     ],
     "background": {
@@ -147,5 +147,5 @@
         "48": "img/icon48.png"
     },
     "description": "Look & feel improvements for some sites",
-    "version": "20200119"
+    "version": "20200127"
 }
