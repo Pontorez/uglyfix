@@ -56,8 +56,8 @@
             "css": ["css/hh.ru.css"]
         },
         {
-            "matches": ["https://career.ru/*"],
-            "css": ["css/career.ru.css"]
+            "matches": ["https://www.inoreader.com/*"],
+            "css": ["css/inoreader.css"]
         },
         {
             "matches": ["*://geektimes.ru/*", "*://habrahabr.ru/*"],
@@ -113,16 +113,6 @@
             "css": ["css/rusrek.css"]
         },
         {
-            "matches": ["https://mail.protonmail.com/*"],
-            "css": ["css/protonmail.css"],
-            "js": [
-                "js/jquery-3.2.1.min.js",
-                "js/mark.es6.min.js",
-                "js/protonmail.js"
-            ],
-            "run_at": "document_start"
-        },
-        {
             "matches": ["http://eroromance.com/*"],
             "css": ["css/eroromance.css"]
         }
@@ -147,5 +137,5 @@
         "48": "img/icon48.png"
     },
     "description": "Look & feel improvements for some sites",
-    "version": "20200127"
+    "version": "20200419"
 }
